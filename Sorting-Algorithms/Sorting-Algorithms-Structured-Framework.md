@@ -1,7 +1,13 @@
+---
+created: 2024-12-27 05:31:26
+author: Cong Le
+version: "1.0"
+license(s): MIT, CC BY 4.0
+---
 
-## **Research Instructions: Analyzing Sorting Algorithms**
+# Research Instructions: Analyzing Sorting Algorithms
 
-### **Keywords:**
+## **Keywords:**
 - **Sorting Algorithms**
 - **Time Complexity**
 - **Space Complexity**
@@ -13,7 +19,7 @@
 - **Divide and Conquer**
 - **Algorithm Optimization**
 
-### **Step 1: Define the Research Scope**
+## **Step 1: Define the Research Scope**
 
 **Objective:** Understand the fundamental aspects of sorting algorithms, including their classifications, mechanisms, and performance characteristics.
 
@@ -29,7 +35,7 @@
 
 Where $n$ is the number of elements to sort.
 
-### **Step 2: Classify Sorting Algorithms**
+## **Step 2: Classify Sorting Algorithms**
 
 **Objective:** Categorize sorting algorithms based on key characteristics such as time complexity, space complexity, stability, and whether they are in-place.
 
@@ -47,7 +53,7 @@ Where $n$ is the number of elements to sort.
 - $O(n \log n)$ algorithms
 - $O(n)$ algorithms (non-comparison sorts)
 
-### **Step 3: Analyze Key Sorting Algorithms**
+## **Step 3: Analyze Key Sorting Algorithms**
 
 **Objective:** Examine the mechanism, time complexity, space complexity, stability, and in-place nature of key sorting algorithms.
 
@@ -153,7 +159,7 @@ Where $k$ is the number of buckets.
 - **Stable:** Yes (depending on underlying sort)
 - **In-Place:** No
 
-### **Step 4: Conduct Theoretical Analysis**
+## **Step 4: Conduct Theoretical Analysis**
 
 **Objective:** Derive the time and space complexities of sorting algorithms mathematically to deepen understanding.
 
@@ -208,7 +214,7 @@ $$
 T(n) = O(n \log n)
 $$
 
-### **Step 5: Review Existing Literature and Case Studies**
+## **Step 5: Review Existing Literature and Case Studies**
 
 **Objective:** Survey academic papers and case studies that analyze or optimize sorting algorithms, focusing on practical applications and performance enhancements.
 
@@ -225,7 +231,7 @@ $$
 - **Cache Complexity Models:** Analyze how algorithms interact with the memory hierarchy.
 - **Parallel Computation Models:** Understand how time complexity changes with multiple processors.
 
-### **Step 6: Implement Experimental Studies**
+## **Step 6: Implement Experimental Studies**
 
 **Objective:** Empirically validate the theoretical time complexities through practical implementation and benchmarking on various datasets.
 
@@ -256,7 +262,7 @@ T_{\text{empirical}} \approx k \cdot f(n)
 $$
 Where $f(n)$ is the theoretical time complexity function and $k$ is a constant.
 
-### **Step 7: Optimize and Explore Advanced Sorting Algorithms**
+## **Step 7: Optimize and Explore Advanced Sorting Algorithms**
 
 **Objective:** Investigate advanced or hybrid sorting algorithms used in practice and their performance benefits.
 
@@ -284,7 +290,7 @@ $$
 T(n) = O(n \log n)
 $$
 
-### **Step 8: Document Findings and Formulate Conclusions**
+## **Step 8: Document Findings and Formulate Conclusions**
 
 **Objective:** Compile research results, analyze them in the context of theoretical knowledge, and draw meaningful conclusions.
 
@@ -313,9 +319,9 @@ Confirm that empirical results align with theoretical expectations within accept
 
 ---
 
-## **Example Mathematical Equations and Syntax**
+# **Example Mathematical Equations and Syntax**
 
-### **Time Complexity Notations:**
+## **Time Complexity Notations:**
 
 - **Big O Notation:**
 $$
@@ -335,7 +341,7 @@ T(n) = \Theta(f(n))
 $$
 Indicates that the time complexity grows exactly as fast as $f(n)$.
 
-### **Master Theorem for Solving Recurrences:**
+## **Master Theorem for Solving Recurrences:**
 
 For recurrences of the form:
 $$
@@ -356,7 +362,7 @@ $$
 T(n) = \Theta(f(n))
 $$
 
-### **Recurrence Relations Examples:**
+## **Recurrence Relations Examples:**
 
 - **Merge Sort:**
 $$
@@ -370,7 +376,7 @@ $$
 
 ---
 
-## **Summary Table of Research Steps**
+# **Summary Table of Research Steps**
 
 | **Step** | **Objective**                                 | **Keywords**                                           | **Mathematical Focus**                               |
 | -------- | --------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------- |
@@ -385,7 +391,7 @@ $$
 
 ---
 
-## **Tips for Effective Research**
+# **Tips for Effective Research**
 
 1. **Understand Algorithm Mechanisms:** Comprehensively study how each algorithm works to better understand their performance characteristics.
 
@@ -405,7 +411,7 @@ $$
 
 ---
 
-## **Additional Considerations**
+# **Additional Considerations**
 
 - **Stability Importance:**
 - **Use Cases for Stable Sorts:** When the relative order of equal elements must be preserved (e.g., sorting records by multiple fields).
