@@ -8,8 +8,10 @@ license(s): MIT, CC BY 4.0
 
 This structured framework provides a comprehensive guide for researching and analyzing the Quick Sort algorithm, focusing on its theoretical underpinnings, practical implementations, and optimization strategies.
 
+---
 
-# **Research Instructions: Analyzing Quick Sort Algorithm**
+
+# Research Instructions: Analyzing Quick Sort Algorithm
 
 ## **Keywords:**
 - **Quick Sort**

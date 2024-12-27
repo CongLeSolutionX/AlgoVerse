@@ -5,6 +5,9 @@ version: "1.0"
 license(s): MIT, CC BY 4.0
 ---
 
+This structured framework provides a comprehensive guide for researching and analyzing the Heap Sort Algorithm, focusing on its theoretical underpinnings, practical implementations, and optimization strategies.
+
+---
 
 
 # Research Instructions: Analyzing Heap Sort Algorithm
