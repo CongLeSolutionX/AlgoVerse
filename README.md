@@ -35,11 +35,11 @@ The goal is to serve as a central hub for understanding, teaching, and researchi
 
 ### Sorting Algorithms
 
-- [Selection Sort](./Selection-Sort/README.md)
-- [Insertion Sort](./Insertion-Sort/README.md) *(Coming Soon)*
-- [Merge Sort](./Merge-Sort/README.md) *(Coming Soon)*
-- [Quick Sort](./Quick-Sort/README.md) *(Coming Soon)*
-- [Heap Sort](./Heap-Sort/README.md) *(Coming Soon)*
+- [Selection Sort](./Sorting-Algorithms/Selection-Sort-Algorithm-Framework/Selection-Sort-Algorithm-Framework.md)
+- [Insertion Sort](./Sorting-Algorithms/Insertion-Sort-Algorithm-Framework/Insertion-Sort-Algorithm-Framework.md)
+- [Merge Sort](./Sorting-Algorithms/Merge-Sort-Algorithm-Framework/Merge-Sort-Algorithm-Framework.md)
+- [Quick Sort](./Sorting-Algorithms/Quick-Sort-Algorithm-Framework/Quick-Sort-Algorithm-Framework.md)
+- [Heap Sort](./Sorting-Algorithms/Heap-Sort-Algorithm-Framework/Heap-Sort-Algorithm-Framework.md)
 
 ### Graph Algorithms
 
@@ -68,8 +68,8 @@ The repository is organized into folders, each corresponding to a specific algor
 - **README.md**: A detailed framework analyzing the algorithm step by step.
 - **Code Implementations**: Source code files implementing the algorithm, possibly in multiple languages.
 - **Resources**: Additional materials such as datasets, diagrams, or supplementary notes.
-
-### Example Structure
+<!-- 
+### Project File and Folder Structure
 
 ```
 AlgoVerse/
@@ -91,7 +91,7 @@ AlgoVerse/
 ├── LICENSE
 │
 └── ... (other algorithms)
-```
+``` -->
 
 ---
 
