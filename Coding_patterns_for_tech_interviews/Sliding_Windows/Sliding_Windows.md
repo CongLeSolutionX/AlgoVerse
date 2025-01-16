@@ -43,6 +43,12 @@ This technique optimizes the handling of the data by reusing computations, which
 Here's a simple Mermaid diagram illustrating the sliding window technique:
 
 ```mermaid
+---
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
 graph TD
     A[Start] --> B[Initialize Window]
     B --> C[Process Current Window]
