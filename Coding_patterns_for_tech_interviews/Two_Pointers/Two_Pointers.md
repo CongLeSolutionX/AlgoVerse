@@ -65,7 +65,7 @@ This flowchart depicts the general process of using the Two Pointers technique, 
 
 ---
 
-## Full code implementation of the algorithm in Swift*
+## Full code implementation of the algorithm in Swift
 
 
 Here's a Swift implementation using the Two Pointers technique to solve the "Squaring a Sorted Array" problem. The goal is to return a new array where each element is the square of the original, sorted in non-decreasing order.
