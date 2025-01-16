@@ -62,7 +62,7 @@ flowchart TD
     J -- No --> B
     J -- Yes --> K[Finish]
 
-    classDef Start_and_End_Point fill:#194,stroke:#333,stroke-width:2px;
+    classDef Start_and_End_Point fill:#1919,stroke:#333,stroke-width:2px;
     class A,K Start_and_End_Point
     
     classDef Decision_Point fill:#9398,stroke:#333,stroke-width:2px;

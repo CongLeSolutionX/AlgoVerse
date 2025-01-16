@@ -5,9 +5,6 @@ version: "1.0"
 license(s): MIT, CC BY 4.0
 ---
 
----
-created: 2024-12-25 09:11:40
----
 
 # The Breadth-First Search (BFS) algorithm
 
