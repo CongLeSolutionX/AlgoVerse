@@ -57,10 +57,21 @@ graph TD
     E --> C
     D -->|No| F[End]
 
-    subgraph Sliding Window Process
+    subgraph Sliding_Window_Process["Sliding Window Process"]
+    style Sliding_Window_Process fill:#f117,stroke:#333,stroke-width:2px;
         C --> G[Add Next Element]
         G --> H[Remove First Element]
     end
+
+    classDef Start_and_End_Point fill:#194,stroke:#333,stroke-width:2px;
+    class A,F Start_and_End_Point
+
+    classDef Decision_Point fill:#9398,stroke:#333,stroke-width:2px;
+    class D Decision_Point
+
+    classDef Yes_Choice fill:#f118,stroke:#333,stroke-width:2px;
+    class E Yes_Choice;
+  
 ```
 
 This diagram shows the basic flow of applying the sliding window technique, where you start with an initial window, process it, and slide it forward until all elements have been considered.
