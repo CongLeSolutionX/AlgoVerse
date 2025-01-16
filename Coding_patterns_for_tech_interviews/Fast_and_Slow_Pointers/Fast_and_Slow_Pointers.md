@@ -60,7 +60,7 @@ flowchart TD
     H -- Yes --> J[Cycle start found, end]
 
 
-    classDef Start_and_End_Point fill:#194,stroke:#333,stroke-width:2px;
+    classDef Start_and_End_Point fill:#1919,stroke:#333,stroke-width:2px;
     class A,D,J Start_and_End_Point
     
     classDef Decision_Point fill:#9398,stroke:#333,stroke-width:2px;
@@ -71,8 +71,9 @@ flowchart TD
 
     classDef Yes_Choice fill:#f118,stroke:#333,stroke-width:2px;
     class G Yes_Choice;
-    
+
 ```
+
 
 
 This diagram shows the process of using fast and slow pointers to detect and find the start of a cycle in a linked list.
