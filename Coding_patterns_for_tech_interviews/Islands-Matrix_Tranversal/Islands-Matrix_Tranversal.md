@@ -44,7 +44,6 @@ Here's a Mermaid diagram illustrating the Islands (Matrix Traversal) algorithm p
 ```mermaid
 ---
 config:
-  layout: elk
   look: handDrawn
   theme: dark
 ---
@@ -63,9 +62,18 @@ flowchart TD
     J -- No --> B
     J -- Yes --> K[Finish]
 
-    style A fill:#f19f,stroke:#333,stroke-width:2px;
-    style K fill:#b1bf,stroke:#333,stroke-width:2px;
+    classDef Start_and_End_Point fill:#194,stroke:#333,stroke-width:2px;
+    class A,K Start_and_End_Point
     
+    classDef Decision_Point fill:#9398,stroke:#333,stroke-width:2px;
+    class H,J Decision_Point
+
+    classDef No_Choice fill:#f998,stroke:#333,stroke-width:2px;
+    class B,D,E No_Choice;
+
+    classDef Yes_Choice fill:#f118,stroke:#333,stroke-width:2px;
+    class C,I Yes_Choice;
+     
 ```
 
 ## Explanation of the Diagram
