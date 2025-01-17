@@ -61,10 +61,6 @@ flowchart TD
     F --> C
     C -- Yes --> G[All elements merged]
 
-%% style A fill:#f19f,stroke:#333,stroke-width:2px
-%% style G fill:#b1ff,stroke:#333,stroke-width:2px
-
-
     classDef Start_and_End_Point fill:#1919,stroke:#333,stroke-width:2px;
     class A Start_and_End_Point;
 
