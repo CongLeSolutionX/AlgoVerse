@@ -234,7 +234,8 @@ This code will print all possible combinations of including or excluding items w
 ---
 
 > **License Details:**
-> - *MIT License:** Full text available at [LICENSE](LICENSE)
-> - **Creative Commons Attribution 4.0 International License (CC BY 4.0):** Full legal text available at [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode)
+> - **MIT License:** Full text available at [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) 
+> - **Creative Commons Attribution 4.0 International License (CC BY 4.0):** Full legal text available at 
+ [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
