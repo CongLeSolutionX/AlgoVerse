@@ -2,7 +2,7 @@
 # AlgoVerse
 A Journey Through the World of Algorithms
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY-4.0) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 Copyright (c) 2025 Cong Le. All Rights Reserved.
@@ -75,9 +75,9 @@ The goal is to serve as a central hub for understanding, teaching, and researchi
 
 The repository is organized into folders, each corresponding to a specific algorithm. Inside each folder, you'll find:
 
-- **README.md**: A detailed framework analyzing the algorithm step by step, including conceptual explanations, mathematical analysis, and pseudocode.  This documentation is licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE-CC-BY-4.0).
+- **README.md**: A detailed framework analyzing the algorithm step by step, including conceptual explanations, mathematical analysis, and pseudocode.  This documentation is licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 - **Code Implementations**: Source code files implementing the algorithm, possibly in multiple languages (e.g., Python, Swift).  Code files are licensed under the [MIT License](LICENSE).
-- **Resources**: Additional materials such as datasets, diagrams, or supplementary notes, also licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE-CC-BY-4.0).
+- **Resources**: Additional materials such as datasets, diagrams, or supplementary notes, also licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 ```markdown
 AlgoVerse/
