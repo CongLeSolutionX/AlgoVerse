@@ -1,5 +1,11 @@
+
 # AlgoVerse
 A Journey Through the World of Algorithms
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY-4.0) 
+
+---
+Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ---
 
@@ -15,6 +21,10 @@ Welcome to **AlgoVerse**! This repository is a comprehensive collection of struc
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+- [Disclaimer](#disclaimer)
+- [Quick Links](#quick-links)
+- [Markdown Resources](#markdown-resources)
 
 ---
 
@@ -27,7 +37,7 @@ Algorithms are the essence of computer science, underlying every application and
 - **Implementations**: Sample code in various programming languages.
 - **Educational Resources**: References and resources for further reading.
 
-The goal is to serve as a central hub for understanding, teaching, and researching algorithms across different domains.
+The goal is to serve as a central hub for understanding, teaching, and researching algorithms across different domains, promoting open education and collaborative learning in computer science.
 
 ---
 
@@ -65,33 +75,29 @@ The goal is to serve as a central hub for understanding, teaching, and researchi
 
 The repository is organized into folders, each corresponding to a specific algorithm. Inside each folder, you'll find:
 
-- **README.md**: A detailed framework analyzing the algorithm step by step.
-- **Code Implementations**: Source code files implementing the algorithm, possibly in multiple languages.
-- **Resources**: Additional materials such as datasets, diagrams, or supplementary notes.
-<!-- 
-### Project File and Folder Structure
+- **README.md**: A detailed framework analyzing the algorithm step by step, including conceptual explanations, mathematical analysis, and pseudocode.  This documentation is licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE-CC-BY-4.0).
+- **Code Implementations**: Source code files implementing the algorithm, possibly in multiple languages (e.g., Python, Swift).  Code files are licensed under the [MIT License](LICENSE-MIT).
+- **Resources**: Additional materials such as datasets, diagrams, or supplementary notes, also licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](LICENSE-CC-BY-4.0).
 
-```
+```markdown
 AlgoVerse/
 │
-├── README.md
+├── README.md  (This file - project overview and license information)
 │
-├── Selection-Sort/
-│   ├── README.md
-│   └── selection_sort.py
+├── Sorting-Algorithms/
+│   └── Selection-Sort-Algorithm-Framework/
+│       ├── README.md     (Algorithm framework - CC BY 4.0 License)
+│       └── selection_sort.py (Code implementation - MIT License)
 │
 ├── Dijkstras-Algorithm/
-│   ├── README.md
-│   └── dijkstra.py
+│   ├── README.md         (Algorithm framework - CC BY 4.0 License)
+│   └── dijkstra.py       (Code implementation - MIT License)
 │
-├── A-Star-Algorithm/
-│   ├── README.md
-│   └── a_star.py
+├── LICENSE-MIT         (Full text of the MIT License)
+├── LICENSE-CC-BY-4.0    (Full text of the Creative Commons BY 4.0 License)
 │
-├── LICENSE
-│
-└── ... (other algorithms)
-``` -->
+└── ... (other algorithm folders)
+```
 
 ---
 
@@ -101,17 +107,19 @@ AlgoVerse/
 
 To make the most of this repository, you may need:
 
-- **Programming Knowledge**: Familiarity with at least one programming language (e.g., Python, Java, C++).
-- **Mathematical Background**: Understanding of basic mathematical concepts and notation.
-- **Tools**: Code editor or IDE, and necessary compilers or interpreters for running code samples.
+- **Programming Knowledge**: Familiarity with at least one programming language (e.g., Python, Java, C++, Swift).
+- **Mathematical Background**: Understanding of basic mathematical concepts and notation relevant to algorithm analysis (e.g., Big O notation).
+- **Tools**: Code editor or IDE, and necessary compilers or interpreters for running code samples. Git for version control is recommended for contributing.
 
 ### Cloning the Repository
 
 To clone the repository to your local machine, run:
 
 ```bash
-git clone https://github.com/your-username/AlgoVerse.git
+git clone https://github.com/CongLeSolutionX/AlgoVerse
 ```
+
+
 
 ---
 
@@ -119,115 +127,15 @@ git clone https://github.com/your-username/AlgoVerse.git
 
 ### Exploring Algorithm Frameworks
 
-1. **Navigate**: Go to the folder of the algorithm you're interested in.
-2. **Read the README.md**: This file contains the structured framework, including research steps, mathematical analyses, and references.
-3. **Review Code Implementations**: Study the provided code files to see the algorithm in action.
-4. **Experiment**: Modify and run the code to deepen your understanding.
-
-### Example: Studying Selection Sort
-
-1. **Navigate to the Selection Sort Folder**:
-
-   ```
-   cd AlgoVerse/Selection-Sort
-   ```
-
-2. **Read the Framework**: Open `README.md` in your preferred Markdown viewer or editor.
-
-3. **Run the Code**:
-
-   ```bash
-   python selection_sort.py
-   ```
-
-4. **Modify the Code**: Try sorting different datasets or implementing optimizations.
+1. **Navigate**: Go to the folder of the algorithm you're interested in (e.g., `AlgoVerse/Sorting-Algorithms/Selection-Sort-Algorithm-Framework/`).
+2. **Read the README.md**: This file contains the structured framework, including research steps, conceptual explanations, mathematical analyses, and pseudocode.
+3. **Review Code Implementations**: Study the provided code files to see the algorithm in action in different programming languages.
+4. **Experiment**: Modify and run the code, or adapt the frameworks for your own research or educational purposes, remembering to adhere to the licensing terms.
 
 ---
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn and collaborate.
+Contributions are what make the open-source community such an amazing place. I'm working on the setup for this section. TBD.
 
-### How to Contribute
-
-1. **Fork the Project**: Click on the `Fork` button at the top right corner of the repository page.
-
-2. **Create Your Feature Branch**:
-
-   ```bash
-   git checkout -b feature/AmazingAlgorithm
-   ```
-
-3. **Commit Your Changes**:
-
-   ```bash
-   git commit -m "Add AmazingAlgorithm framework and implementation"
-   ```
-
-4. **Push to the Branch**:
-
-   ```bash
-   git push origin feature/AmazingAlgorithm
-   ```
-
-5. **Open a Pull Request**:
-
-    - Go to your forked repository on GitHub.
-    - Click on `Compare & pull request`.
-    - Provide a descriptive title and detailed description of your changes.
-
-### Contribution Guidelines
-
-- **Clarity**: Ensure that README files are clear, concise, and well-formatted.
-- **Code Quality**: Write clean, readable code with comments where necessary.
-- **Licensing**: Only include content that you have the right to share.
-- **Respect**: Be respectful and constructive in communication.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
----
-
-## Contact
-
-For questions, suggestions, or collaboration opportunities, feel free to reach out.
-
-- **GitHub Issues**: Open an issue if you encounter problems or have ideas.
-- **Email**: [CongLeJobs@gmail.com](mailto:CongLeJobs@gmail.com)
-
----
-
-## Acknowledgments
-
-- **Resources**: Thanks to the authors of the textbooks and online resources referenced throughout the repository.
-- **Contributors**: A big thank you to all contributors who have helped expand AlgoVerse.
-- **Community**: Appreciation for the open-source community for fostering collaboration and learning.
-
----
-
-## Disclaimer
-
-This repository is intended for educational purposes. While efforts are made to ensure accuracy, the frameworks and code are provided "as-is" without warranty of any kind.
-
----
-
-## Quick Links
-
-- [Issues](https://github.com/CongLeSolutionX/AlgoVerse/issues)
-- [Pull Requests](https://github.com/CongLeSolutionX/AlgoVerse/pulls)
-- [Forks](https://github.com/CongLeSolutionX/AlgoVerse/network/members)
-- [Stars](https://github.com/CongLeSolutionX/AlgoVerse/stargazers)
-
----
-
-*Markdown cheatsheet and tools for writing README files:*
-
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [StackEdit](https://stackedit.io/): Online Markdown editor.
-
-
----
+----
