@@ -3,9 +3,18 @@ created: 2025-01-16 05:31:26
 author: Cong Le
 version: "1.0"
 license(s): MIT, CC BY 4.0
+copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ---
 
 # 0-1 Knapsack Algorithm
+
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
+
 
 The 0/1 Knapsack problem is a classic optimization problem used to select items that maximize profit without exceeding a given capacity.
 
@@ -224,3 +233,8 @@ This code will print all possible combinations of including or excluding items w
 
 ---
 
+> **License Details:**
+> - *MIT License:** Full text available at [LICENSE](LICENSE)
+> - **Creative Commons Attribution 4.0 International License (CC BY 4.0):** Full legal text available at [https://creativecommons.org/licenses/by/4.0/legalcode](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+---
