@@ -7,6 +7,15 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ---
 
 
+
+# Merge Sort Algorithm Framework 
+
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 This structured framework provides a comprehensive guide for researching and analyzing the Merge Sort algorithm, focusing on its theoretical underpinnings, practical implementations, and optimization strategies.
 
 ---
