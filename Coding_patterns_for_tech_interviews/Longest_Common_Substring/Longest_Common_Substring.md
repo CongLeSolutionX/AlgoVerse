@@ -208,4 +208,12 @@ print("Longest Common Substring: \(result)")
 - **Output**: For each step, it prints the 2D DP table. At the end, it gives the longest common substring.
 - **Result**: You will see the process for each character match and non-match, letting you verify the updates to the DP table.
 
+
+
+---
+**Licenses:**
+
+- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
+- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
+
 ---

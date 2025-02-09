@@ -293,4 +293,12 @@ flowchart TD
 This diagram illustrates how a hash table can be used to store and retrieve Fibonacci numbers efficiently, avoiding redundant calculations by checking if a number is already present in the hash table. If it exists, the value is retrieved; if not, the number is calculated, stored, and then potentially used in further calculations.
 
 
+
+
+---
+**Licenses:**
+
+- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
+- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
+
 ---
