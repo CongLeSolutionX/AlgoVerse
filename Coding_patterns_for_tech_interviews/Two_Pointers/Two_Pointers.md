@@ -7,6 +7,12 @@ license(s): MIT, CC BY 4.0
 
 # Two Pointers Algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 
 The "Two Pointers" technique is a method used to iterate through input data such as arrays, strings, or linked lists using two pointers. These pointers typically start at opposite ends of the data structure or array and move towards each other at a constant interval.
 

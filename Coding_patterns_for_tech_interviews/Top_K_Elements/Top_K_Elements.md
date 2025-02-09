@@ -7,6 +7,12 @@ license(s): MIT, CC BY 4.0
 
 # Top K Elements Algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 The "Top 'K' Elements" algorithm is used to find the top, smallest, or most frequently occurring 'K' elements in a dataset. Here's how it works:
 
 ## Usage

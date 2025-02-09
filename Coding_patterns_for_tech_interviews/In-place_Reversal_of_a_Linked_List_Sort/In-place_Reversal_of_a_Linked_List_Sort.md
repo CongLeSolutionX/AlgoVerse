@@ -7,6 +7,12 @@ license(s): MIT, CC BY 4.0
 
 # In-place Reversal of a LinkedList algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 The image describes the "In-place Reversal of a LinkedList" algorithm, a method used to reverse the links between nodes in a linked list efficiently. The key point is that this reversal is performed in-place, meaning it uses the existing nodes without requiring extra memory for new nodes.
 
 ## Key Concepts

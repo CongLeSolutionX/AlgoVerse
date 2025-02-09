@@ -7,6 +7,12 @@ license(s): MIT, CC BY 4.0
 
 # Modified Binary Search Algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 The Modified Binary Search is an adaptation of the traditional binary search algorithm, designed to efficiently search sorted arrays.
 
 Here's how it works and its typical applications:

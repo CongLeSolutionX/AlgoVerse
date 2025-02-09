@@ -7,6 +7,12 @@ license(s): MIT, CC BY 4.0
 
 # Two Heaps Algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 The "Two Heaps" algorithm is a technique used to efficiently handle problems where you need to maintain and query data dynamically. It involves maintaining two separate heaps:
 
 1. **Min-Heap**: This heap is used to keep track of the larger half of the numbers. It's organized such that the smallest element in this half can be easily retrieved, allowing you to access the minimum of the larger numbers quickly.

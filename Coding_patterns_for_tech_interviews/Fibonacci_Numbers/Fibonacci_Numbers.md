@@ -7,6 +7,12 @@ license(s): MIT, CC BY 4.0
 
 # Fibonacci Numbers Algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 The image discusses the Fibonacci Numbers technique, which is useful for solving problems involving sequences where each number is the sum of the preceding ones.
 
 This typically refers to the Fibonacci sequence:

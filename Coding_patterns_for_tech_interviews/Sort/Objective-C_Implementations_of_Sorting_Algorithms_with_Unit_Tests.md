@@ -6,8 +6,14 @@ license(s): MIT, CC BY 4.0
 ---
 
 
-
 # Objective-C Implementations of Sorting Algorithms with Unit Tests
+
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 
 Below are Objective-C implementations for various sorting algorithms, following current best practices. Each algorithm includes edge case handling and accompanying unit tests using `XCTest` framework.
 

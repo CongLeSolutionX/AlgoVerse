@@ -7,6 +7,12 @@ license(s): MIT, CC BY 4.0
 
 # Merge Intervals Algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 The "Merge Intervals" algorithm is used to handle overlapping intervals, often encountered in scheduling problems like conflicting appointments or finding the minimum number of meeting rooms needed.
 
 ## Key Concepts:

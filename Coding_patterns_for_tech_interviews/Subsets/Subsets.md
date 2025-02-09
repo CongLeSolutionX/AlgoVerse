@@ -7,6 +7,12 @@ license(s): MIT, CC BY 4.0
 
 # Subsets Algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 The image describes an algorithmic technique focused on handling subsets or combinations, particularly useful for problems involving permutations or combinations of a set of elements.
 
 Here’s a breakdown:

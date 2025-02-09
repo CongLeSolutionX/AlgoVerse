@@ -8,6 +8,12 @@ license(s): MIT, CC BY 4.0
 
 # K-way Merge Algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
 The "K-way Merge" algorithm is a technique used to merge multiple sorted arrays into a single sorted array efficiently.
 
 Here's a breakdown of its components and uses:

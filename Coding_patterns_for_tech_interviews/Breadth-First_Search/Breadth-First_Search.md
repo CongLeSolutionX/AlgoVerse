@@ -8,6 +8,13 @@ license(s): MIT, CC BY 4.0
 
 # The Breadth-First Search (BFS) algorithm
 
+> This content is dual-licensed under your choice of the following licenses:
+> 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
+> 2.  **Creative Commons Attribution 4.0 International License (CC BY 4.0):** For all other content, including the text, explanations, and the Mermaid diagrams and illustrations.
+
+---
+
+
 The image describes the Breadth-First Search (BFS) algorithm, which is a technique used to traverse or search through data structures like trees or graphs.
 
 ## Key Points
