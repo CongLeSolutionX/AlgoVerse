@@ -340,3 +340,9 @@ mindmap
 These diagrams provide a visual representation of the Bubble Sort algorithm and its complexities. By illustrating the algorithm's flow, comparison mechanism, and time complexities, we can better understand its behavior and performance characteristics. Visual tools like Mermaid help in conceptualizing these aspects, aiding in both learning and teaching the fundamentals of algorithm analysis.
 
 ---
+**Licenses:**
+
+- **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
+- **Creative Commons Attribution 4.0 International:** [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](LICENSE-CC-BY) - Legal details in [LICENSE-CC-BY](LICENSE-CC-BY) and at [Creative Commons official site](http://creativecommons.org/licenses/by/4.0/).
+
+---
