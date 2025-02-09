@@ -3,6 +3,7 @@ created: 2024-12-28 05:31:26
 author: Cong Le
 version: "1.0"
 license(s): MIT, CC BY 4.0
+copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ---
 
 Below is a set of diagrams in Mermaid syntax that explain the complexities of the Heap Sort Algorithm as discussed in the previous response. Each diagram is accompanied by a brief explanation.

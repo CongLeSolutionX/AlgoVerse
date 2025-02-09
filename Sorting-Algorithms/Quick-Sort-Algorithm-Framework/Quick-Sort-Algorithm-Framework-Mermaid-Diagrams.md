@@ -3,6 +3,7 @@ created: 2024-12-27 05:31:26
 author: Cong Le
 version: "1.0"
 license(s): MIT, CC BY 4.0
+copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ---
 
 Below are a set of diagrams in Mermaid syntax that illustrate the complexities of the Quick Sort algorithm as discussed in the previous response. These diagrams aim to visualize:

@@ -3,6 +3,7 @@ created: 2024-12-28 05:31:26
 author: Cong Le
 version: "1.0"
 license(s): MIT, CC BY 4.0
+copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ---
 
 Below are a set of diagrams in Mermaid syntax that explain the complexities of the Bubble Sort Algorithm. These diagrams illustrate the algorithm's flow, the comparison and swapping mechanisms, and the time complexity analyses for best, average, and worst-case scenarios.
