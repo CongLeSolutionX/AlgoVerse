@@ -31,7 +31,7 @@ config:
 ---
 flowchart LR
     subgraph Helix_Representation["Helix Representation of Numbers"]
-    style Helix_Representation fill:#f3f9dd,stroke:#333,stroke-width:1.2px
+    style Helix_Representation fill:#f39d,stroke:#333,stroke-width:1.2px
         HR1["Numbers 'a' & 'b'<br>as Generalized Helices"];
         HR2["Mathematical Basis:<br>Fourier Features T=[2, 5, 10, 100]"];
         HR3["Generalized Helix Equation:<br><code>helix(a) = CB(a)^T</code>"];
@@ -40,7 +40,7 @@ flowchart LR
     end
 
     subgraph Clock_Algorithm ["Clock Algorithm for Addition<br>(a + b)"]
-    style Clock_Algorithm fill:#dde9f7,stroke:#333,stroke-width:1.2px
+    style Clock_Algorithm fill:#d9f7,stroke:#333,stroke-width:1.2px
         CA1["Step 1:<br>Embedding<br>Embed <code>helix(a)</code> & <code>helix(b)</code><br>on Input Tokens"];
         CA2["Step 2:<br>Helix Movement<br>Attention Heads (L9-14)<br>Move <code>helix(a)</code> & <code>helix(b)</code><br>to <b>Last Token</b>"];
         CA3["Step 3:<br>Helix Manipulation<br>MLPs (L14-18)<br>Manipulate & Combine<br><code>helix(a)</code> & <code>helix(b)</code><br>to create <code>helix(a+b)</code>"];
@@ -97,7 +97,7 @@ config:
 ---
 graph LR
     subgraph Generalized_Helix["Generalized Helix Representation"]
-    style Generalized_Helix fill:#ddf7f3,stroke:#333,stroke-width:1.2px
+    style Generalized_Helix fill:#d7f3,stroke:#333,stroke-width:1.2px
         GH1["Represents Numbers<br>in High-Dimensional Space"];
         GH2["<b>Equation:</b><br><code>helix(a) = CB(a)^T</code>"];
         GH_Basis["<b>Basis Functions B(a):</b>"];
@@ -111,7 +111,7 @@ graph LR
     end
 
     subgraph Fourier_Features["Fourier Features (T=[2, 5, 10, 100]) & Periodicity"]
-    style Fourier_Features fill:#e3f9dd,stroke:#333,stroke-width:1.2px
+    style Fourier_Features fill:#e39d,stroke:#333,stroke-width:1.2px
         FF_T2["<b>T=2</b>"];
         FF2["Even/Odd Numbers<br>Low Frequency"];
         FFA["<b>Periodicity:</b> Even/Odd Cycle"];
@@ -135,7 +135,7 @@ graph LR
         FF_T10 --> FF7 --> FFC --> FF_Combined
         FF_T100 --> FF9 --> FFD --> FF_Combined
 
-        style FF_Combined fill:#cfc9d9,stroke:#333,stroke-width:1px
+        style FF_Combined fill:#c914,stroke:#333,stroke-width:1px
     end
 
     Generalized_Helix -- Utilizes --> Fourier_Features
@@ -194,17 +194,17 @@ sequenceDiagram
     participant Attn_Heads_24_26 as Attention Heads (L24-26)<br/>(Logits Output Aid)
     participant Logits_Output as Logits Output
 
-    Input_Token_a->>Embedding_Layer: Step 1: Embed <code>helix(a)</code>
-    Input_Token_b->>Embedding_Layer: Step 1: Embed <code>helix(b)</code>
-    Embedding_Layer->>Attn_Heads_9_14: Input: <code>helix(a)</code>, <code>helix(b)</code><br/>(Tokens 'a', 'b')
-    Attn_Heads_9_14 ->> Last_Token: Step 2: Move <code>helix(a)</code>, <code>helix(b)</code><br/>to <b>Last Token</b>
-    Last_Token->>MLPs_14_18: Input: <code>helix(a)</code>, <code>helix(b)</code><br/>(Last Token)
-    MLPs_14_18 ->>MLPs_19_27: Step 3: Construct <code>helix(a+b)</code><br/>from <code>helix(a) + helix(b)</code>
-    MLPs_19_27 ->>Attn_Heads_24_26: Step 4: Read <code>helix(a+b)</code>
-    Attn_Heads_24_26 ->>Logits_Output: Step 4: Output to <b>Logits</b><br/>for 'a + b' Answer
+    Input_Token_a->>Embedding_Layer: Step 1: Embed helix(a)
+    Input_Token_b->>Embedding_Layer: Step 1: Embed helix(b)
+    Embedding_Layer->>Attn_Heads_9_14: Input: helix(a), helix(b)<br/>(Tokens 'a', 'b')
+    Attn_Heads_9_14 ->> Last_Token: Step 2: Move helix(a), helix(b)<br/>to Last Token
+    Last_Token->>MLPs_14_18: Input: helix(a), helix(b)<br/>(Last Token)
+    MLPs_14_18 ->>MLPs_19_27: Step 3: Construct helix(a+b)<br/>from helix(a) + helix(b)
+    MLPs_19_27 ->>Attn_Heads_24_26: Step 4: Read helix(a+b)
+    Attn_Heads_24_26 ->>Logits_Output: Step 4: Output to Logits<br/>for 'a + b' Answer
 
-    Note over Embedding_Layer, Attn_Heads_9_14: Steps 1 & 2:<br/>Representation & Movement
-    Note over MLPs_14_18, MLPs_19_27: Steps 3 & 4:<br/>Manipulation & Readout
+    Note over Embedding_Layer, Attn_Heads_9_14: Steps 1 & 2:<br/>Representation and Movement
+    Note over MLPs_14_18, MLPs_19_27: Steps 3 and 4:<br/>Manipulation and Readout
 
     loop Iterative Processing within Layers
         Attn_Heads_9_14 -->>MLPs_14_18: ...Hidden State Flow...
