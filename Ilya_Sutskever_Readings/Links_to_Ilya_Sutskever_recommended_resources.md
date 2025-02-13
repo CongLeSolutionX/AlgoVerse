@@ -38,6 +38,13 @@ Below are the 27 articles that Ilia Sutskever, the cofounder of OpenAI, told Joh
 
 More search result by Google Search Labs at [here](https://www.google.com/search?q=original+link+sources+27+articles+that+Ilya+Sutskever%2C+the+cofounder+of+OpenAI%2C+told+John+Carmack+to+read+%28the+creator+of+Doom+and+programming+legend%29+if+he+wanted+to+very+quickly+become+super+smart+on+the+topic+of+AI+and+how+it+is+being+developed+right+now.&sca_esv=4be518e6148afb1c&biw=1921&bih=1128&sxsrf=AHTn8zq9f-jfgF7abyjFfI_cU4EvXwtZtg%3A1739428628363&ei=FJOtZ_bzFbPIkPIPue_ioQk&ved=0ahUKEwj2zYXMhMCLAxUzJEQIHbm3OJQQ4dUDCBE&uact=5&oq=original+link+sources+27+articles+that+Ilya+Sutskever%2C+the+cofounder+of+OpenAI%2C+told+John+Carmack+to+read+%28the+creator+of+Doom+and+programming+legend%29+if+he+wanted+to+very+quickly+become+super+smart+on+the+topic+of+AI+and+how+it+is+being+developed+right+now.&gs_lp=Egxnd3Mtd2l6LXNlcnAiggJvcmlnaW5hbCBsaW5rIHNvdXJjZXMgMjcgYXJ0aWNsZXMgdGhhdCBJbHlhIFN1dHNrZXZlciwgdGhlIGNvZm91bmRlciBvZiBPcGVuQUksIHRvbGQgSm9obiBDYXJtYWNrIHRvIHJlYWQgKHRoZSBjcmVhdG9yIG9mIERvb20gYW5kIHByb2dyYW1taW5nIGxlZ2VuZCkgaWYgaGUgd2FudGVkIHRvIHZlcnkgcXVpY2tseSBiZWNvbWUgc3VwZXIgc21hcnQgb24gdGhlIHRvcGljIG9mIEFJIGFuZCBob3cgaXQgaXMgYmVpbmcgZGV2ZWxvcGVkIHJpZ2h0IG5vdy5IAFAAWABwAHgAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAIAoAIAmAMAkgcAoAcA&sclient=gws-wiz-serp).
 
+---
+
+Note:
+
+Here is the link to my iOS app to reading these materials (WIP):
+https://github.com/CongLeSolutionX/MyApp/tree/UIKit_UIPageViewController
+
 
 
 ----
