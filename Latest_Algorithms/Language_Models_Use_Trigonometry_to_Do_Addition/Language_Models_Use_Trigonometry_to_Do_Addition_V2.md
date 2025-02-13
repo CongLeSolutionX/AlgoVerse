@@ -205,14 +205,15 @@ sequenceDiagram
 
     Note over Embedding_Layer, Attn_Heads_9_14: Steps 1 & 2:<br/>Representation and Movement
     Note over MLPs_14_18, MLPs_19_27: Steps 3 and 4:<br/>Manipulation and Readout
-
-    loop Iterative Processing within Layers
-        Attn_Heads_9_14 -->>MLPs_14_18: ...Hidden State Flow...
-        MLPs_14_18 -->>MLPs_19_27: ...Hidden State Flow...
-        MLPs_19_27 -->>Attn_Heads_24_26: ...Hidden State Flow...
+    
+    rect rgb(20, 15, 255)
+        loop Iterative Processing within Layers
+            Attn_Heads_9_14 -->>MLPs_14_18: ...Hidden State Flow...
+            MLPs_14_18 -->>MLPs_19_27: ...Hidden State Flow...
+            MLPs_19_27 -->>Attn_Heads_24_26: ...Hidden State Flow...
+        end
     end
 
-    %% style Last_Token fill:#FFFFE0,stroke:#333,stroke-width:1px
     participant Last_Token as Last Token
 
 ```
