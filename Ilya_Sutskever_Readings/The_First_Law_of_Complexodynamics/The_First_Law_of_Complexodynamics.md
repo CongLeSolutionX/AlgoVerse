@@ -4,8 +4,7 @@ author: Cong Le
 version: "1.0"
 license(s): MIT, CC BY 4.0
 copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
-original source: https://scottaaronson.blog/?p=762&utm_source=www.mattprd.com&utm_medium=referral&utm_campaign=openai-cofounder-the-27-papers-to-read-to-know-90-about-ai
-
+original source: https://scottaaronson.blog/?p=762
 
 ---
 
