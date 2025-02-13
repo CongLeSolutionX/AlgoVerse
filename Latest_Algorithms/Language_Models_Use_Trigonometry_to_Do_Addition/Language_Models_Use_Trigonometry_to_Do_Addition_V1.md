@@ -236,7 +236,7 @@ title: Clock Algorithm Steps in Detail
 config:
   layout: elk
   look: handDrawn
-  theme: dark
+  theme: forest
 ---
 mindmap
   root(("Component Roles in Clock Algorithm"))
