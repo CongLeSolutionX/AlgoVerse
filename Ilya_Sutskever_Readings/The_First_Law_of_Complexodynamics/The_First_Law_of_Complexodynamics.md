@@ -75,6 +75,75 @@ flowchart LR
 *   **Complexity (Blue Line):** Starts low, increases to a peak at an intermediate stage (where "interesting structures" emerge), and then decreases back to a low level in the final, equilibrium state.
 *   **Key Question:** The central puzzle is to explain this non-monotonic behavior of complexity in contrast to entropy.
 
+---
+
+# 2. The Coffee Cup Analogy
+
+Sean Carroll illustrated this concept with the coffee cup example, showing milk mixing into coffee over time.
+
+## Diagram 2: Coffee Cup Complexity Evolution
+
+```mermaid
+---
+title: Coffee Cup Complexity Over Time
+caption: Visual representation of the coffee cup example, showing complexity peaking in the intermediate stage during mixing
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
+flowchart LR
+    TS1["Stage 1: Initial<br>(Ordered)"];
+    TS2["Stage 2: Intermediate<br>(Complex)"];
+    TS3["Stage 3: Final<br>(Mixed/Disordered)"];
+
+    S1A["Coffee & Milk Separated"];
+    S1B["Low Entropy"];
+    S1C["Low Complexity"];
+
+    S2A["Milk Tendrils Mixing"];
+    S2B["Increasing Entropy"];
+    S2C["High Complexity"];
+
+    S3A["Uniform Mixture"];
+    S3B["High Entropy"];
+    S3C["Low Complexity"];
+
+
+    subgraph Time_Stages
+    style Time_Stages fill:#f3f3,stroke:#333,stroke-width:1px
+        TS1 --> TS2 --> TS3
+    end
+
+    subgraph Stage_1["Stage 1: Initial<br>(Ordered)"]
+    style Stage_1 fill:#f3f3,stroke:#333,stroke-width:1px,stroke-dasharray: 3 3
+        S1A --> S1B & S1C
+    end
+
+    subgraph Stage_2 ["Stage 2: Intermediate<br>(Complex)"]
+    style Stage_2 fill:#f3f3,stroke:#333,stroke-width:1px,stroke-dasharray: 3 3
+        S2A --> S2B & S2C
+    end
+
+    subgraph Stage_3 ["Stage 3: Final<br>(Mixed/Disordered)"]
+    style Stage_3 fill:#f3f3,stroke:#333,stroke-width:1px,stroke-dasharray: 3 3
+        S3A --> S3B & S3C
+    end
+
+    Time_Stages --> Stage_1
+    Time_Stages --> Stage_2
+    Time_Stages --> Stage_3
+
+    linkStyle 0 stroke-width:2px,stroke:black
+    linkStyle 1 stroke-width:2px,stroke:black
+    linkStyle 2 stroke-width:2px,stroke:black 
+```
+
+### Explanation
+
+*   **Stage 1 (Initial):** Coffee and milk are separate - ordered, low entropy, low complexity.
+*   **Stage 2 (Intermediate):** Milk starts mixing, forming intricate tendrils - increasing entropy, high complexity (visually interesting).
+*   **Stage 3 (Final):** Uniform mixture of coffee and milk - high entropy, low complexity (homogeneous, less interesting).
 
 
 ---
