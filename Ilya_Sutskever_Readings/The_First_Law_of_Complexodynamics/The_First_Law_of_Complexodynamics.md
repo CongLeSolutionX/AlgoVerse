@@ -276,7 +276,7 @@ flowchart TD
     linkStyle 5 stroke-width:2px,stroke:green
     linkStyle 6 stroke-width:2px,stroke:green
     linkStyle 7 stroke-width:2px,stroke:green
-    
+
 ```
 
 #### Explanation
@@ -290,6 +290,80 @@ flowchart TD
     *   Low for strings with simply describable structures (low KC).
     *   Low for uniformly random strings (describable as "random n-bit string").
     *   Potentially high for strings that are neither simple nor completely random – the "interesting" cases.
+
+
+---
+
+## 5. Resource-Bounded Complextropy: Addressing Time Evolution
+
+Sophistication, as initially defined, still has issues when applied to systems evolving over time.  The solution proposed is **Resource-Bounded Complextropy**.
+
+### Diagram 5: Resource-Bounded Complextropy
+
+```mermaid
+---
+title: Resource-Bounded Complextropy Definition
+caption: Diagram defining Resource-Bounded Complextropy and highlighting the importance of dual efficiency constraints
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
+flowchart TD
+    PST_Similar_Issue["Similar issue as KC with deterministic systems"];
+    PST_Soph_Limited("Soph(state at time t) <= log(t) + C");
+    PST_Need_Resource_Bound["Need to incorporate computational resource bounds again"];
+
+    Comp_Def["Shortest program<br>(within resource bound,<br>e.g., n log(n) time)<br>that:"];
+    Comp_Sample("Condition 1:<br>Outputs nearly-uniform sample from set S");
+    Comp_Cond1("Condition 2:<br>x ∈ S");
+    Comp_Cond2("Condition 3:<br>Reconstructing x efficiently from S sample is hard:<br>K_resource(x|S) >= log<sub>2</sub>(|S|) - c");
+    
+    KI_Eff_Sample["Efficient Sampling Algorithm"];
+    KI_Eff_Reconstruct["Efficient Reconstruction Algorithm Constraint"];
+    KI_Essential["Both constraints are essential for Complextropy to work as intended"];
+
+    
+    subgraph Problem_Sophistication_Time["Problem:<br>Sophistication and Time"]
+    style Problem_Sophistication_Time fill:#f3e5,stroke:#333,stroke-width:1px
+        PST_Soph_Limited --> PST_Similar_Issue
+        PST_Similar_Issue --> PST_Need_Resource_Bound
+    end
+
+    subgraph Resource_Bounded_Complextropy["Resource-Bounded Complextropy<br>(Complextropy(x))"]
+    style Resource_Bounded_Complextropy fill:#f3f5,stroke:#333,stroke-width:1px
+        Comp_Def --> Comp_Sample & Comp_Cond1 & Comp_Cond2
+    end
+    Problem_Sophistication_Time --> Resource_Bounded_Complextropy
+
+    subgraph Key_Innovation["Key Innovation:<br>Dual Efficiency Constraints"]
+    style Key_Innovation fill:#e3f5,stroke:#333,stroke-width:1px
+        Resource_Bounded_Complextropy --> KI_Eff_Sample
+        Resource_Bounded_Complextropy --> KI_Eff_Reconstruct
+        KI_Eff_Sample & KI_Eff_Reconstruct --> KI_Essential
+    end
+
+
+    linkStyle 0 stroke-width:2px,stroke:red
+    linkStyle 1 stroke-width:2px,stroke:red
+    linkStyle 2 stroke-width:2px,stroke:red
+    linkStyle 3 stroke-width:2px,stroke:blue
+    linkStyle 4 stroke-width:2px,stroke:blue
+    linkStyle 5 stroke-width:2px,stroke:blue
+    linkStyle 6 stroke-width:2px,stroke:green
+    linkStyle 7 stroke-width:2px,stroke:green
+    linkStyle 8 stroke-width:2px,stroke:green  
+```
+
+#### Explanation
+
+*   **Problem with Sophistication over Time:** Similar to the issue with Kolmogorov Complexity and deterministic systems, sophistication alone might not capture the complexity changes in evolving systems effectively. Sophistication might also be limited by `log(t) + C`.
+*   **Resource-Bounded Complextropy Definition:** Define complextropy using resource-bounded computation in two key places:
+    1.  **Efficient Sampling:** The program to describe `S` must run within a given time limit (e.g., `n log(n)`). It outputs a near-uniform sample from `S`.
+    2.  **Inefficient Reconstruction (given S sample):**  Any program that tries to reconstruct `x` within the same resource bound, given access to samples from `S`, must still be complex (at least  `log<sub>2</sub>(|S|) - c` bits).
+*   **Dual Efficiency Constraints:**  It's crucial to have efficiency constraints on *both* the sampling algorithm (for defining S) and the reconstruction algorithm (for recovering x from S). This dual constraint is the key innovation to capture the desired "complextropy" behavior.
+
+---
 
 
 
