@@ -87,7 +87,49 @@ Sean Carroll illustrated this concept with the coffee cup example, showing milk 
 ### Diagram 2: Coffee Cup Complexity Evolution
 
 ```mermaid
-CHANGE_ME
+---
+title: Enhanced - Coffee Cup Complexity Over Time
+caption: Improved visual representation of the coffee cup example, emphasizing the visual characteristics of each stage and the trend of complexity.
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
+flowchart LR
+    subgraph Time_Stages
+    style Time_Stages fill:#f119,stroke:#333,stroke-width:1px
+        TS1["Stage 1: Initial"] --> TS2["Stage 2: Mixing"] --> TS3["Stage 3: Mixed"]
+    end
+
+    subgraph Stage_1["Stage 1: Initial (Ordered)"]
+    style Stage_1 fill:#f1f9,stroke:#333,stroke-width:1px,stroke-dasharray: 3 3
+        S1A[fa:fa-mug-hot Coffee<br>& fa:fa-cloud Milk<br>Separated Layers]
+        S1A --> S1B["Low Entropy"]
+        S1A --> S1C["Low Complexity"]
+    end
+
+    subgraph Stage_2 ["Stage 2: Mixing (Complex)"]
+    style Stage_2 fill:#f1f9,stroke:#333,stroke-width:1px,stroke-dasharray: 3 3
+       S2A[fa:fa-mug-hot Coffee<br>+ Milk Swirls<br>Intricate Tendrils]
+        S2A --> S2B["Increasing Entropy"]
+        S2A --> S2C["High Complexity<br>(Visually Interesting)"]
+    end
+
+    subgraph Stage_3 ["Stage 3: Final (Mixed/Disordered)"]
+    style Stage_3 fill:#f1f9,stroke:#333,stroke-width:1px,stroke-dasharray: 3 3
+        S3A[fa:fa-mug-hot Uniform Beige<br>Homogeneous Mixture]
+        S3A --> S3B["High Entropy"]
+        S3A --> S3C["Low Complexity<br>(Homogeneous)"]
+    end
+
+    Time_Stages --> Stage_1
+    Time_Stages --> Stage_2
+    Time_Stages --> Stage_3
+
+    linkStyle 0 stroke-width:2px,stroke:black
+    linkStyle 1 stroke-width:2px,stroke:black
+    linkStyle 2 stroke-width:2px,stroke:black
+
 
 ```
 
