@@ -194,15 +194,20 @@ sequenceDiagram
     participant Attn_Heads_24_26 as Attention Heads (L24-26)<br/>(Logits Output Aid)
     participant Logits_Output as Logits Output
 
-    Input_Token_a->>Embedding_Layer: Step 1: Embed helix(a)
-    Input_Token_b->>Embedding_Layer: Step 1: Embed helix(b)
-    Embedding_Layer->>Attn_Heads_9_14: Input: helix(a), helix(b)<br/>(Tokens 'a', 'b')
-    Attn_Heads_9_14 ->> Last_Token: Step 2: Move helix(a), helix(b)<br/>to Last Token
-    Last_Token->>MLPs_14_18: Input: helix(a), helix(b)<br/>(Last Token)
-    MLPs_14_18 ->>MLPs_19_27: Step 3: Construct helix(a+b)<br/>from helix(a) + helix(b)
-    MLPs_19_27 ->>Attn_Heads_24_26: Step 4: Read helix(a+b)
-    Attn_Heads_24_26 ->>Logits_Output: Step 4: Output to Logits<br/>for 'a + b' Answer
-
+    rect rgb(20, 15, 55)
+        Input_Token_a->>Embedding_Layer: Step 1: Embed helix(a)
+        Input_Token_b->>Embedding_Layer: Step 1: Embed helix(b)
+        Embedding_Layer->>Attn_Heads_9_14: Input: helix(a), helix(b)<br/>(Tokens 'a', 'b')
+        Attn_Heads_9_14 ->> Last_Token: Step 2: Move helix(a), helix(b)<br/>to Last Token
+        Last_Token->>MLPs_14_18: Input: helix(a), helix(b)<br/>(Last Token)
+    end
+    
+    rect rgb(200, 50, 65)
+        MLPs_14_18 ->>MLPs_19_27: Step 3: Construct helix(a+b)<br/>from helix(a) + helix(b)
+        MLPs_19_27 ->>Attn_Heads_24_26: Step 4: Read helix(a+b)
+        Attn_Heads_24_26 ->>Logits_Output: Step 4: Output to Logits<br/>for 'a + b' Answer
+    end
+    
     Note over Embedding_Layer, Attn_Heads_9_14: Steps 1 & 2:<br/>Representation and Movement
     Note over MLPs_14_18, MLPs_19_27: Steps 3 and 4:<br/>Manipulation and Readout
     
