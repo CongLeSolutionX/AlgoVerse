@@ -42,8 +42,7 @@ More search result by Google Search Labs at [here](https://www.google.com/search
 
 Note:
 
-Here is the link to my iOS app to reading these materials (WIP): https://github.com/CongLeSolutionX/MyApp.git
-
+Here is the link to my iOS app to reading these materials (WIP):
 https://github.com/CongLeSolutionX/MyApp/tree/UIKit_UIPageViewController
 
 
