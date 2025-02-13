@@ -367,6 +367,131 @@ flowchart TD
 
 
 
+## 6. Conjecture and Proposed Experiment: "First Law of Complexodynamics"
+
+The blog post conjectures that this Resource-Bounded Complextropy will exhibit the desired "small-large-small" behavior over time.
+
+### Diagram 6: "First Law of Complexodynamics" Conjecture
+
+```mermaid
+---
+title: Conjecture and Experiment for Complextropy
+caption: Diagram outlines the core conjecture about complextropy's behavior and the proposed experiment using a discrete coffee cup simulation
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
+flowchart TB
+    Conj_Complextropy_Behavior[Resource-Bounded Complextropy exhibits Sean's desired behavior];
+    Conj_Initial(Small at initial state);
+    Conj_Intermediate(Large at intermediate states);
+    Conj_Final("Small at final (equilibrium) state");
+
+    Exp_System["2D array of black/white pixels<br>(coffee/milk)"];
+    Exp_Initial("Initially separated regions");
+    Exp_Dynamics["Random Nearest-Neighbor Mixing<br>(swap adjacent pixels)"];
+    Exp_Measure("Plot Complextropy over time");
+    Exp_Expected_Outcome["Complextropy curve:<br>small -> large -> small"];
+
+    Chal_Computation["Complextropy is likely intractable to compute exactly"];
+    Chal_Approximation["Use approximations<br>(e.g., gzip compression size)"];
+    Chal_Empirical_Approach["Empirical validation through simulation and plotting"];
+    
+    subgraph Conjecture["Conjecture:<br>'First Law of Complexodynamics'"]
+    style Conjecture fill:#f3f4,stroke:#333,stroke-width:1px
+        Conj_Complextropy_Behavior --> Conj_Initial & Conj_Intermediate & Conj_Final
+    end
+
+    subgraph Proposed_Experiment["Proposed Experiment:<br>Discrete 'Coffee Cup'"]
+    style Proposed_Experiment fill:#e336,stroke:#333,stroke-width:1px
+        Exp_System --> Exp_Initial & Exp_Dynamics
+        Exp_Dynamics --> Exp_Measure
+        Exp_Measure --> Exp_Expected_Outcome
+    end
+    Conjecture --> Proposed_Experiment
+
+    subgraph Challenges
+    style Challenges fill:#f3e4,stroke:#333,stroke-width:1px
+        Proposed_Experiment --> Chal_Computation
+        Chal_Computation --> Chal_Approximation
+        Chal_Approximation --> Chal_Empirical_Approach
+
+    end
+
+    linkStyle 0 stroke-width:2px,stroke:blue
+    linkStyle 1 stroke-width:2px,stroke:blue
+    linkStyle 2 stroke-width:2px,stroke:blue
+    linkStyle 3 stroke-width:2px,stroke:green
+    linkStyle 4 stroke-width:2px,stroke:green
+    linkStyle 5 stroke-width:2px,stroke:green
+    linkStyle 6 stroke-width:2px,stroke:red
+    linkStyle 7 stroke-width:2px,stroke:red
+    linkStyle 8 stroke-width:2px,stroke:red
+    
+```
+
+
+#### Explanation
+
+*   **Conjecture:**  Resource-Bounded Complextropy is conjectured to behave as Sean Carroll described for complexity – low initially, high at intermediate stages, and low again in equilibrium. This is termed the "First Law of Complexodynamics."
+*   **Proposed Experiment: Discrete Coffee Cup:** Simulate a 2D grid representing coffee and milk. Start with separated regions and apply random mixing over time.
+*   **Expected Outcome:** Plot the complextropy (or an approximation like gzip compression size) over time.  Expect to see the "small-large-small" curve, supporting the conjecture.
+*   **Challenges:**
+    *   Complextropy is likely computationally intractable.
+    *   Use approximations (like gzip compression) as a practical substitute for empirical investigation.
+    *   Focus on empirical validation by plotting the approximate complextropy in simulations.
+
+---
+
+## 7. Summary Diagram: The Flow of Ideas
+
+### Diagram 7:  Overall Conceptual Flow
+
+```mermaid
+---
+title: Conceptual Flow of Ideas in the Blog Post
+caption:  A high-level diagram summarizing the logical progression of ideas presented in Scott Aaronson's blog post
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
+flowchart TB
+    Start[Sean Carroll's Question: Complexity vs. Entropy] --> Paradox[Paradox: Entropy Monotonic, Complexity Not]
+    Paradox --> CoffeeCup[Coffee Cup Example]
+    CoffeeCup --> KC_Entropy[Kolmogorov Complexity to define Entropy?]
+    KC_Entropy --> Problem_KC[Problem: KC too slow for Deterministic Entropy]
+    Problem_KC --> ResourceBoundKC[Resource-Bounded KC for Entropy]
+    ResourceBoundKC --> Sophistication["Sophistication for 'Interesting' Complexity"]
+    Sophistication --> Problem_Soph[Problem: Sophistication and Time Evolution]
+    Problem_Soph --> Complextropy[Resource-Bounded Complextropy proposed]
+    Complextropy --> Conjecture_Law["'First Law of Complexodynamics' Conjecture"]
+    Conjecture_Law --> Experiment[Proposed Experiment: Discrete Coffee Cup]
+    Experiment --> Expected_Result[Expected 'Small-Large-Small' Complextropy Curve]
+    Expected_Result --> Open_Problem[Open Problem: Rigorous Proof & Further Research]
+
+    style Start fill:#a3c3,stroke:#333,stroke-width:2px
+    style Paradox fill:#f33b,stroke:#333,stroke-width:2px
+    style CoffeeCup fill:#dd3fd,stroke:#333,stroke-width:2px
+    style KC_Entropy fill:#d449,stroke:#333,stroke-width:2px
+    style Problem_KC fill:#f31e,stroke:#333,stroke-width:2px
+    style ResourceBoundKC fill:#d3ef,stroke:#333,stroke-width:2px
+    style Sophistication fill:#d3d2,stroke:#333,stroke-width:2px
+    style Problem_Soph fill:#f325,stroke:#333,stroke-width:2px
+    style Complextropy fill:#d3d,stroke:#333,stroke-width:2px
+    style Conjecture_Law fill:#a3aa,stroke:#333,stroke-width:2px
+    style Experiment fill:#d3e3,stroke:#333,stroke-width:2px
+    style Expected_Result fill:#a2fa,stroke:#333,stroke-width:2px
+     style Open_Problem fill:#ff29d,stroke:#333,stroke-width:2px
+
+```
+
+#### Explanation
+
+*   This diagram provides a bird's-eye view of the entire blog post's argument, showing the logical flow and connections between different concepts.
+*   It starts with the initial question, moves through the challenges and proposed solutions, and ends with the conjecture and open problems.
+
 
 ---
 
