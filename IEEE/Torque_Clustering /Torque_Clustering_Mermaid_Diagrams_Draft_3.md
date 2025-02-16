@@ -169,7 +169,7 @@ graph LR
     U --> V
     end
     
-    style Torque_Clustering_Algorithm fill:#f9f,stroke:#333,stroke-width:4px
+    style Torque_Clustering_Algorithm fill:#f399,stroke:#333,stroke-width:4px
     
 ```
 
@@ -187,103 +187,20 @@ config:
 graph LR
     %% Subgraph for Initial Data and Cluster Formation
     subgraph InitialState["Initial Data and Cluster Formation"]
-    style InitialState fill:#f9f,stroke:#333,stroke-width:2px
-    A[Data Points: x1 to x7]
-    A --> B1[Initial Clusters: ζ1 to ζ7, Mass = 1]
-    end
-    %% Arrows to show initial one-to-one relationship
-    B1 --> |Each point \n is a cluster| A
-
-    %% Subgraph for First Merging Stage
-    subgraph FirstMerging["First Merging Stage (Connections C1-C4)"]
-    style FirstMerging fill:#ccf,stroke:#333,stroke-width:2px
-        C1[Connect: ζ1 → ζ2]
-        C2[Connect: ζ3 → ζ2]
-        C3[Connect: ζ4 → ζ5]
-        C4[Connect: ζ6 → ζ7]
-       
-        B1 --> C1
-        B1 --> C2
-        B1 --> C3
-        B1 --> C4
-
-        C1 --> NewPoints["New Clusters: \n{ζ1,ζ2,ζ3}, {ζ4,ζ5}, {ζ6,ζ7}"]
-        C2 --> NewPoints
-        C3 --> NewPoints
-        C4 --> NewPoints
-    end
-
-    %% Subgraph for Decision Graph (C1-C4)
-        subgraph DecisionGraphC1C4["Decision Graph (After C1-C4)"]
-            style DecisionGraphC1C4 fill:#aaf,stroke:#333,stroke-width:2px
-                DG1[("Mᵢ, Dᵢ for C1-C4")]
-                DG1 --> DG11[("Relatively Lower Values")]
-        end
-    NewPoints --> DG1
-
-    %% Subgraph for Second Merging Stage
-    subgraph SecondMerging["Second Merging Stage (Connections C5-C6)"]
-    style SecondMerging fill:#ddf,stroke:#333,stroke-width:2px
-        C5["Connect: {ζ1,ζ2,ζ3} → {ζ4,ζ5}"]
-        C6["Connect: {ζ1,ζ2,ζ3}→ {ζ6,ζ7}"]
-     
-        NewPoints --> C5
-        NewPoints --> C6
-        C5 --> BigCluster
-        C6 --> BigCluster
-        BigCluster[Single Cluster Formation]
-    end
-    %% Subgraph for Decision Graph (C5-C6)
-        subgraph DecisionGraphC5C6["Decision Graph (After C5 - C6)"]
-            style DecisionGraphC5C6 fill:#bbf,stroke:#333,stroke-width:2px
-                DG2[("Mᵢ, Dᵢ for C5, C6")]
-                DG2 --> DG22[("Relatively Higher Values")]
-        end
-
-    BigCluster --> DG2
-    %% Subgraph for Final Partitioning
-    subgraph FinalPartitioning["Final Partitioning and Hierarchical Tree"]
-    style FinalPartitioning fill:#eef,stroke:#333,stroke-width:2px
-          FP["Remove Abnormal Connections (C5, C6)"]
-         BigCluster --> FP
-    end
-
-    %% Connections to Hierarchical Tree
-    HierarchicalTree[("Hierarchical Tree \n (Dendrogram)")]
-     FP --> HierarchicalTree
-    %% Connections between the stages to show the process flow
-    InitialState --> FirstMerging
-    FirstMerging --> SecondMerging
-    SecondMerging --> FinalPartitioning
-    
-```
-
-Note: 
-
-```mermaid
----
-config:
-  layout: elk
-  look: handDrawn
-  theme: default
----
-graph LR
-    %% Subgraph for Initial Data and Cluster Formation
-    subgraph InitialState["Initial Data and Cluster Formation"]
-    style InitialState fill:#f395,stroke:#333,stroke-width:2px
-        A[Data Points:<br>x1 to x7]
-        A --> B1[Initial Clusters:<br>ζ1 to ζ7, Mass = 1]
+    style InitialState fill:#f399,stroke:#333,stroke-width:2px
+    A[Data Points:<br>x1 to x7]
+    A --> B1[Initial Clusters:<br>ζ1 to ζ7, Mass = 1]
     end
     %% Arrows to show initial one-to-one relationship
     B1 --> |Each point<br>is a cluster| A
 
     %% Subgraph for First Merging Stage
     subgraph FirstMerging["First Merging Stage<br>(Connections C1-C4)"]
-    style FirstMerging fill:#c3c5,stroke:#333,stroke-width:2px
-        C1[Connect:<br>ζ1 → ζ2]
-        C2[Connect:<br>ζ3 → ζ2]
-        C3[Connect:<br>ζ4 → ζ5]
-        C4[Connect:<br>ζ6 → ζ7]
+    style FirstMerging fill:#c3c9,stroke:#333,stroke-width:2px
+        C1[Connect: ζ1 → ζ2]
+        C2[Connect: ζ3 → ζ2]
+        C3[Connect: ζ4 → ζ5]
+        C4[Connect: ζ6 → ζ7]
        
         B1 --> C1
         B1 --> C2
@@ -298,15 +215,15 @@ graph LR
 
     %% Subgraph for Decision Graph (C1-C4)
         subgraph DecisionGraphC1C4["Decision Graph<br>(After C1-C4)"]
-        style DecisionGraphC1C4 fill:#a3a5,stroke:#333,stroke-width:2px
-            DG1[("Mᵢ, Dᵢ for C1-C4")]
-            DG1 --> DG11[("Relatively Lower Values")]
+            style DecisionGraphC1C4 fill:#a3a6,stroke:#333,stroke-width:2px
+                DG1[("Mᵢ, Dᵢ for C1-C4")]
+                DG1 --> DG11[("Relatively Lower Values")]
         end
     NewPoints --> DG1
 
     %% Subgraph for Second Merging Stage
     subgraph SecondMerging["Second Merging Stage<br>(Connections C5-C6)"]
-    style SecondMerging fill:#d3d5,stroke:#333,stroke-width:2px
+    style SecondMerging fill:#d4d9,stroke:#333,stroke-width:2px
         C5["Connect:<br>{ζ1,ζ2,ζ3} → {ζ4,ζ5}"]
         C6["Connect:<br>{ζ1,ζ2,ζ3}→ {ζ6,ζ7}"]
      
@@ -318,17 +235,17 @@ graph LR
     end
     %% Subgraph for Decision Graph (C5-C6)
         subgraph DecisionGraphC5C6["Decision Graph<br>(After C5 - C6)"]
-        style DecisionGraphC5C6 fill:#b3b5,stroke:#333,stroke-width:2px
-            DG2[("Mᵢ, Dᵢ for C5, C6")]
-            DG2 --> DG22[("Relatively Higher Values")]
+            style DecisionGraphC5C6 fill:#b3b9,stroke:#333,stroke-width:2px
+                DG2[("Mᵢ, Dᵢ for C5, C6")]
+                DG2 --> DG22[("Relatively Higher Values")]
         end
 
     BigCluster --> DG2
     %% Subgraph for Final Partitioning
     subgraph FinalPartitioning["Final Partitioning and Hierarchical Tree"]
-    style FinalPartitioning fill:#e3e5,stroke:#333,stroke-width:2px
-        FP["Remove Abnormal Connections<br>(C5, C6)"]
-        BigCluster --> FP
+    style FinalPartitioning fill:#e3e9,stroke:#333,stroke-width:2px
+          FP["Remove Abnormal Connections<br>(C5, C6)"]
+         BigCluster --> FP
     end
 
     %% Connections to Hierarchical Tree
@@ -338,6 +255,7 @@ graph LR
     InitialState --> FirstMerging
     FirstMerging --> SecondMerging
     SecondMerging --> FinalPartitioning
+    
 ```
 
 -----
@@ -693,16 +611,16 @@ config:
   theme: dark
 ---
 graph LR
-    subgraph TC_vs_Others["TC vs. Representative Algorithms -<br> Final Partitions"]
+    subgraph TC_vs_Others["TC vs. Representative Algorithms - Final Partitions"]
     style TC_vs_Others fill:#c833,stroke:#333,stroke-width:2px
-        subgraph TC["Torque Clustering<br>(TC)"]
+        subgraph TC["Torque Clustering (TC)"]
         style TC fill:#c3c4,stroke:#333,stroke-width:2px
             A[("Stage 1:<br>Initial Merging")]
             A --> B[("Stage 2-5:<br>Constrained Merging<br>prevents errors")]
             B --> C[("Final Result:<br>Correct Clusters")]
        end
 
-        subgraph Other_Algorithms["Other Algorithms<br>(Final Results Only)"]
+        subgraph Other_Algorithms["Other Algorithms (Final Results Only)"]
         style Other_Algorithms fill:#c328,stroke:#333,stroke-width:2px
             O1[("AC-S:<br>Sensitive to Outliers,<br>Incorrect Mergers")]
             O2[("AC-W:<br>Struggles with<br>Complex Shapes")]
@@ -786,7 +704,7 @@ graph LR
         C --> D["May not precisely identify all instances<br>of non-uniform noise"];
         A --> E[Large Number of Clusters];
         E --> F["TC assumes abnormal connections<br>have relatively large distance values"];
-        F --> G["May face challenges with data sets containing<br>an extremely  large number of clusters<br>lacking clear boundaries"];
+        F --> G["May face challenges with data sets containing<br>an extremely large number of clusters<br>lacking clear boundaries"];
         
         G --> H[Shared Limitation]; 
         D --> H
