@@ -105,17 +105,32 @@ config:
   theme: dark
 ---
 sequenceDiagram
-    autonumber
-    participant LRM as Large Reasoning Model
-    participant RAG as Agentic RAG Mechanism
-    participant SearchAPI as Web Search API
-    participant ReasonInDoc as Reason-in-Documents Module
+	autonumber
+
+    box rgb(230, 22, 55) Large Reasoning Model
+        participant LRM as Large Reasoning Model
+    end
+
+    box rgb(230, 22, 55) Agentic RAG Mechanism
+        participant RAG as Agentic RAG Mechanism
+    end
+
+    box rgb(230, 22, 55) Agentic RAG Mechanism
+        participant SearchAPI as Web Search API
+    end
+
+    box rgb(230, 22, 55) Reason-in-Documents Module
+        participant ReasonInDoc as Reason-in-Documents Module
+    end
+    
     actor User
 
     LRM->>RAG: Reasoning Process (Step t)
     RAG-->>LRM: Continue Reasoning Steps
+    rect rgb(200, 100, 200)
     loop Knowledge Uncertainty Check
         RAG->>LRM: Detects Knowledge Gap?
+        rect rgb(20, 100, 200)
         alt Yes
             RAG->>LRM: Generate Search Query <|begin_search_query|> ... <|end_search_query|>
             LRM->>SearchAPI: Send Search Query
@@ -124,8 +139,12 @@ sequenceDiagram
             ReasonInDoc-->>RAG: Refined Knowledge
             RAG->>LRM: Inject Refined Knowledge <|begin_search_result|> ... <|end_search_result|>
         else No
+        end
+        rect rgb(20, 10, 230)
             RAG-->>LRM: Continue Reasoning
         end
+        end
+    end
     end
     RAG-->>LRM: Reasoning Completion
     LRM-->>User: Final Answer
