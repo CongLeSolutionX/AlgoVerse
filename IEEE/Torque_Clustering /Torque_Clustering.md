@@ -47,6 +47,8 @@ I have aimed for a balance of technical detail and visual clarity for effective 
 
 
 [Torque_Clustering_Mermaid_Diagrams_Draft_1](Torque_Clustering_Mermaid_Diagrams_Draft_1.md)
+[Torque_Clustering_Mermaid_Diagrams_Draft_2](Torque_Clustering_Mermaid_Diagrams_Draft_2.md)
+[Torque_Clustering_Mermaid_Diagrams_Draft_3](Torque_Clustering_Mermaid_Diagrams_Draft_3.md)
 
 
 ---
