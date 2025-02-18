@@ -219,7 +219,7 @@ Note: we can properly render the math equation using the latest Mermaid syntax v
 config:
   layout: elk
   look: handDrawn
-  theme: default
+  theme: dark
 ---
 graph LR
     A[Classical RSA Encryption] --> B["Public Key (e, n)"]
@@ -355,7 +355,7 @@ Understanding the complexities and technical concepts of integer factorization i
 config:
   layout: elk
   look: handDrawn
-  theme: default
+  theme: dark
 ---
 graph LR
     Subgraph[Integer Factorization]
