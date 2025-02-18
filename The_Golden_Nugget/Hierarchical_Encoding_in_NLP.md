@@ -100,7 +100,7 @@ Language exhibits a natural hierarchy:
 config:
   layout: elk
   look: handDrawn
-  theme: default
+  theme: dark
 ---
 flowchart TB
     subgraph Document
@@ -179,6 +179,12 @@ flowchart TB
 #### **Architecture Diagram:**
 
 ```mermaid
+---
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
 flowchart LR
     subgraph Document
         subgraph Sentence_i
@@ -246,9 +252,15 @@ flowchart LR
 
 **Concept:** Adapt the transformer architecture to process text hierarchically, addressing limitations with long sequences.
 
-#### **Architecture Diagram:**
+#### Architecture Diagram
 
 ```mermaid
+---
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
 flowchart TD
     subgraph Document
         subgraph Sentence_i
