@@ -8,7 +8,6 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 
 
-
 # Dijkstra's Algorithm: In-Depth Explanation
 > This content is dual-licensed under your choice of the following licenses:
 > 1.  **MIT License:** For the code implementations in Swift and Mermaid provided in this document.
