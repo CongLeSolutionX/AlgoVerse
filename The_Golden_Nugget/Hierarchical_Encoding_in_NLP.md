@@ -105,28 +105,28 @@ config:
 flowchart TB
     subgraph Document
         subgraph Sentence_1["Sentence 1"]
-            w_11["Word $w_{11}$"] --> h_11["Hidden $h_{11}$"]
-            w_12["Word $w_{12}$"] --> h_12["Hidden $h_{12}$"]
-            w_1n["Word $w_{1n}$"] --> h_1n["Hidden $h_{1n}$"]
-            h_1n --> s_1[Sentence Vector $s_1$]
+            w_11["Word: $$w_{11}$$"] --> h_11["Hidden: $$h_{11}$$"]
+            w_12["Word: $$w_{12}$$"] --> h_12["Hidden: $$h_{12}$$"]
+            w_1n["Word: $$w_{1n}$$"] --> h_1n["Hidden: $$h_{1n}$$"]
+            h_1n --> s_1[Sentence Vector: $$s_1$$]
         end
         
         subgraph Sentence_2["Sentence 2"]
-            w_21["Word $w_{21}$"] --> h_21["Hidden $h_{21}$"]
-            w_22["Word $w_{22}$"] --> h_22["Hidden $h_{22}$"]
-            w_2n["Word $w_{2n}$"] --> h_2n["Hidden $h_{2n}$"]
-            h_2n --> s_2["Sentence Vector $s_2$"]
+            w_21["Word: $$w_{21}$$"] --> h_21["Hidden: $$h_{21}$$"]
+            w_22["Word: $$w_{22}$$"] --> h_22["Hidden: $$h_{22}$$"]
+            w_2n["Word: $$w_{2n}$$"] --> h_2n["Hidden: $$h_{2n}$$"]
+            h_2n --> s_2["Sentence Vector: $s_2$"]
         end
         ...
         
         subgraph Sentence_m["Sentence m"]
-            w_m1["Word $w_{m1}$"] --> h_m1["Hidden $h_{m1}$"]
-            w_m2["Word $w_{m2}$"] --> h_m2["Hidden $h_{m2}$"]
-            w_mn["Word $w_{mn}$"] --> h_mn["Hidden $h_{mn}$"]
-            h_mn --> s_m["Sentence Vector $s_m$"]
+            w_m1["Word: $$w_{m1}$$"] --> h_m1["Hidden: $$h_{m1}$$"]
+            w_m2["Word: $$w_{m2}$$"] --> h_m2["Hidden: $$h_{m2}$$"]
+            w_mn["Word: $$w_{mn}$$"] --> h_mn["Hidden: $$h_{mn}$$"]
+            h_mn --> s_m["Sentence Vector: $$s_m$$"]
         end
         
-        s_1 --> H["Document Vector $H$"]
+        s_1 --> H["Document Vector: $$H$$"]
         s_2 --> H
         ...
         s_m --> H
@@ -187,21 +187,35 @@ config:
 ---
 flowchart LR
     subgraph Document
-        subgraph Sentence_i
+    w_i1["Word: $$w_{i1}$$"];
+    h_i1["Hidden: $$h_{i1}$$"];
+    w_i2["Word: $$w_{i2}$$"];
+    h_i2["Hidden: $$h_{i2}$$"];
+    w_in["Word: $$w_{in}$$"];
+    h_in["Hidden: $$h_{in}$$"];
+    s_i["Sentence Vector: $$s_i$$"];
+
+    s_1["Sentence Vector: $$s_1$$"];
+    s_2["Sentence Vector: $$s_2$$"];
+    s_m["Sentence Vector: $$s_m$$"];
+    v["Document Vector: $$v$$"];
+    Output["Prediction"];
+
+        subgraph Sentence_i["Sentence i"]
             direction TB
-            w_i1["Word $w_{i1}$] --> h_{i1}[Hidden $h_{i1}$"]
-            w_i2["Word $w_{i2}$] --> h_{i2}[Hidden $h_{i2}$"]
+            w_i1 --> h_i1
+            w_i2 --> h_i2
             ...
-            w_in["Word $w_{in}$] --> h_{in}[Hidden $h_{in}$"]
-            h_{i1} & h_{i2} & ... & h_{in} --> |Word Attention| s_i[Sentence Vector $s_i$]
+            w_in --> h_in
+            h_i1 & h_i2 & ... & h_in --> |Word Attention| s_i
         end
-        s_1[Sentence Vector $s_1$]
-        s_2[Sentence Vector $s_2$]
+        s_1
+        s_2
         ...
-        s_m[Sentence Vector $s_m$]
-        s_1 & s_2 & ... & s_m --> |Sentence Attention| v[Document Vector $v$]
+        s_m
+        s_1 & s_2 & ... & s_m --> |Sentence Attention| v
     end
-    v --> Output[Prediction]
+    v --> Output
 ```
 
 #### **Explanation:**
@@ -262,17 +276,27 @@ config:
   theme: dark
 ---
 flowchart TD
+    Tokens_i["Tokens: $$T_i$$"];
+    s_i["Sentence Embedding: $$s_i$$"];
+
+    s_1["Sentence Embedding: $$s_1$$"];
+    s_2["Sentence Embedding: $$s_2$$"];
+    s_m["Sentence Embedding: $$s_m$$"];
+    v["Document Embedding: $$v$$"];
+    Output["Prediction"];
+
+
     subgraph Document
-        subgraph Sentence_i
-            Tokens_i[Tokens $T_i$] --> |Local Transformer Encoder| s_i[Sentence Embedding $s_i$]
+        subgraph Sentence_i["Sentence i"]
+            Tokens_i --> |Local Transformer Encoder| s_i
         end
-        s_1[Sentence Embedding $s_1$]
-        s_2[Sentence Embedding $s_2$]
+        s_1
+        s_2
         ...
-        s_m[Sentence Embedding $s_m$]
-        s_1 & s_2 & ... & s_m --> |Global Transformer Encoder| v[Document Embedding $v$]
+        s_m
+        s_1 & s_2 & ... & s_m --> |Global Transformer Encoder| v
     end
-    v --> Output[Prediction]
+    v --> Output
 ```
 
 #### **Explanation:**
