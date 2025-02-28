@@ -9,7 +9,7 @@ original source: "https://arxiv.org/abs/2502.00873"
 
 
 
-# LLM Addition Mechanism
+# Language Models Use Trigonometry to Do Addition
 > **Disclaimer:**
 >
 > This document contains my personal notes on the topic,
@@ -19,6 +19,58 @@ original source: "https://arxiv.org/abs/2502.00873"
 > 1. **MIT License:** Applies to all code implementations (Swift, Mermaid, and other programming languages).
 > 2. **Creative Commons Attribution 4.0 International License (CC BY 4.0):** Applies to all non-code content, including text, explanations, diagrams, and illustrations.
 ---
+
+
+## Analyzing the paper
+
+The paper "Language Models Use Trigonometry to Do Addition" investigates how large language models (LLMs) perform arithmetic, specifically addition.  Here's a breakdown of the key concepts, categorized for clarity and drawing parallels with the previous Mermaid structure:
+
+
+### I. Core Concepts (and Diagram Equivalents)
+
+
+* **Representation of Numbers as Generalized Helices (Diagram: Directed Acyclic Graph):**  LLMs represent numbers (e.g., integers 0-99) not as simple linear values, but as a generalized helix, incorporating periodic (e.g., modular) and linear components.  This is captured in a directed graph.
+    *   **Nodes:**  'Number Representation', 'Linear Component', 'Periodic Components (T=2, 5, 10, 100)'
+    *   **Edges:** Connecting 'Number Representation' to 'Linear Component' and various 'Periodic Components', illustrating the intertwined nature of these components.
+
+* **The "Clock" Algorithm (Diagram: Flowchart or Sequence Diagram):**  This algorithm describes how LLMs manipulate the helical representations of numbers to perform addition.  Visualize this as a flowchart or sequence diagram:
+    *   **Steps:** Embed numbers as helices, rotate/manipulate helices corresponding to a and b, create the sum helix (a+b), extract the answer from the sum helix.
+
+* **Activation Patching (Diagram: Sequence Diagram):** This technique isolates the contribution of specific model components (attention heads, MLPs, neurons) to the final answer (logit). This is best shown in a sequence diagram, outlining the flow and patching of activation streams.
+    *   **Nodes:** 'Clean Prompt', 'Corrupted Prompt', 'Patched Component', 'Answer Logits'
+    *   **Edges:** Show the interactions between these nodes, indicating how patching changes the final answer.
+
+* **Fourier Analysis (Diagram: Possibly a Pie Chart or Bar Graph):** Fourier decomposition reveals the frequency components in the number representations.  Show how the model's hidden states are sparse in the Fourier domain, highlighting the dominant frequencies (periods).  A pie chart or bar graph showing the distribution of Fourier components would be appropriate here.
+
+* **Feature Manifolds (Diagram: Not a traditional graph, but an illustration):** The study explores if number representations form a non-linear feature manifold (Engels et al. 2024). Use an illustration or a 3D plot to depict the shape of the manifold and show that the representation is continuous across different inputs.
+
+
+* **Interpretable Circuits (Diagram: Possibly a Directed Acyclic Graph, showing the interactions between layers):** The paper identifies specific layers and components of the LLM that contribute to the addition process. This can be represented as a DAG that visualizes the interaction between layers of the network (Attention heads, MLPs, Neurons).  The diagram should highlight the key components found to be causally involved.
+
+
+
+### II. Detailed Concepts (Diagram Types)
+
+
+* **MLP Analysis:** Diagram the structure and function of Multilayer Perceptrons in the addition task, showing how different layers process information.  Use nodes to represent MLPs and directed edges to illustrate the flow of data between them and the contribution of each layer.
+* **Attention Head Analysis:**  Identify which attention heads are crucial for addition.  Show the connections and interaction of these attention heads in the LLM using a DAG (or possibly a matrix heatmap).
+* **Neuron Analysis:**  Visualize the impact of individual neurons on the addition task. Use a heatmap or a 3D plot to depict the periodicity in neuron pre-activations.
+
+
+### III. Additional Concepts (Diagram types)
+
+
+*   **Task Performance:** A table (or bar graph) showing accuracy across different numerical tasks (addition, subtraction, division, etc.) for each model analyzed.
+*   **Error Analysis:** A plot (or table) summarizing the types of errors GPT-J makes during addition and the frequency of those errors.
+
+
+The key is to adapt the diagram types to illustrate the specific details of each concept while maintaining a cohesive and understandable overall structure.  Consider using different visual cues (color, shading, node sizes) to highlight crucial relationships and comparisons between the models' behavior. Remember to include appropriate labels and annotations to make the diagrams as clear and informative as possible.
+
+
+---
+
+
+
 
 
 ## LLM Addition Mechanism - A Diagram Structure
