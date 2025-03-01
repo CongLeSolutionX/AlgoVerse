@@ -123,6 +123,10 @@ graph LR
         AU --> BA(Figure 5)
         BA --> BB[Syntactic and Semantic Structure]
     end
+
+    click R "https://github.com/CongLeSolutionX/AlgoVerse/blob/main/Ilya_Sutskever_Readings/Attention_Is_All_You_Need/Softmax_Layer.md" "Go to Softmax Layer page"
+
+
     
 ```
 
