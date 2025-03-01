@@ -142,6 +142,10 @@ graph LR
 
 
 ---
+> Note:
+> A comprehensive diagram version for Transformer Architecture is available in this [link](https://github.com/CongLeSolutionX/Synthetic-Zooniverse/blob/main/Transformers/Transformer_Architecture_A_Comprehensive_Overview.md). 
+
+---
 **Licenses:**
 
 - **MIT License:**  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) - Full text in [LICENSE](LICENSE) file.
