@@ -17,7 +17,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ---
 
-Based on my understanding, I create a series of Mermaid diagrams and illustrations to visually represent the core concepts of Search-o1 framework from the original white paper at this [link](#)
+Based on my understanding, I create a series of Mermaid diagrams and illustrations to visually represent the core concepts of the framework from the original white paper at this [link](https://ieeexplore.ieee.org/document/10856563)
 
 
 ## Document Breakdown
