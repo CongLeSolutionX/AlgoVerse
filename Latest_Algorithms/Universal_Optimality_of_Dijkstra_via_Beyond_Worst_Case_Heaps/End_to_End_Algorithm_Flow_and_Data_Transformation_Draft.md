@@ -49,7 +49,7 @@ config:
   }
 }%%
 graph TD
-    subgraph Input["Input:<br> G(V,E), w, s"]
+    subgraph Input["Input"]
     style Input fill:#f9f3,stroke:#000,stroke-width:1px
         A["G(V,E), w, s"]:::yellowCircle
     end
