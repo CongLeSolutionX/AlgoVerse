@@ -310,14 +310,15 @@ config:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    "sequenceDiagram": { "htmlLabels": false, 'curve': 'linear' },
-    'fontFamily': 'Fantasy',
+    "sequenceDiagram": { "htmlLabels": false},
+    'fontFamily': 'verdana',
     'themeVariables': {
-      'primaryColor': '#2528',
-      'primaryTextColor': '#525',
-      'primaryBorderColor': '#7C0000',
-      'lineColor': '#229',
-      'secondaryColor': '#006100'
+      'primaryColor': '#B528',
+      'primaryTextColor': '#2cf',
+      'primaryBorderColor': '#7C33',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#0610',
+      'tertiaryColor': '#fff'
     }
   }
 }%%
