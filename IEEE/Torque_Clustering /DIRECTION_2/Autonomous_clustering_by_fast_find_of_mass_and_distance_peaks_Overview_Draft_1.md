@@ -196,10 +196,10 @@ graph LR
     style I fill:#ccf3,stroke:#333,stroke-width:1px;
 
     subgraph Equations
-        EE1["M_i = θ_i * θ_i"]
-        EE2["D_i = d^2(cluster_i, cluster_j)"]
-        EE3["τ_i = M_i * D_i"]
-        EE4["TGap_i = ω_i * (τ'_i - τ'_{i+1})"]
+        EE1["$$M_i = θ_i * θ_i$$"]
+        EE2["$$D_i = d^2(cluster_i, cluster_j)$$"]
+        EE3["$$τ_i = M_i * D_i$$"]
+        EE4["$$TGap_i = ω_i * (τ'_i - τ'_{i+1})$$"]
     end
 
     F --> EE1
