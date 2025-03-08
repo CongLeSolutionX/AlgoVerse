@@ -229,6 +229,30 @@ This diagram directly corresponds to the conceptual illustration in Figure 2 of 
 Now, let's illustrate the **TwHIN Embedding Process** (Section 4.1 and Algorithm 1) using a flowchart:
 
 ```mermaid
+---
+title: "TwHIN Embedding Process"
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Available curve styles include the following keywords:
+%% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
+%%{
+  init: {
+    "flowchart": { "htmlLabels": false, 'curve': 'linear' },
+    'fontFamily': 'Fantasy',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#f529',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
 flowchart TD
     subgraph Data_Preparation["Data Preparation"]
         A["Input HIN:<br>G(V, E, Φ, Ψ)"] --> B{"Triplets (s, r, t) from E"}
@@ -276,6 +300,27 @@ This diagram clarifies the computational flow and key steps of Algorithm 1 descr
 Next, let's visualize the **Inductive Multi-modal Embedding Generation** process (Section 4.4) using a sequence diagram.
 
 ```mermaid
+---
+title: "Inductive Multi-modal Embedding Generation Process"
+config:
+  theme: base
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Available curve styles include the following keywords:
+%% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
+%%{
+  init: {
+    "sequenceDiagram": { "htmlLabels": false, 'curve': 'linear' },
+    'fontFamily': 'Fantasy',
+    'themeVariables': {
+      'primaryColor': '#2528',
+      'primaryTextColor': '#525',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#229',
+      'secondaryColor': '#006100'
+    }
+  }
+}%%
 sequenceDiagram
 	autonumber
     participant Non-User Entities (T)
@@ -294,6 +339,7 @@ sequenceDiagram
     Probability Distribution P(c|ui) -->> Multi-modal User Embedding: Create mixture distribution over top m clusters
     Clusters (C) -->> Multi-modal User Embedding: Use cluster centroids/medoids as cluster representation
     Multi-modal User Embedding-->>User (ui): Represent user with multi-modal embedding mixture
+
 ```
 
 **Explanation of the Sequence Diagram (Inductive Multi-modal Embedding Generation):**
@@ -315,31 +361,55 @@ This diagram highlights the steps of clustering, engagement quantification, prob
 Now, let's visualize the **End-to-End Framework for Recommendation** (Figure 3) using a flowchart.
 
 ```mermaid
+---
+title: "End-to-End Framework for Recommendation"
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Available curve styles include the following keywords:
+%% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
+%%{
+  init: {
+    "flowchart": { "htmlLabels": false, 'curve': 'linear' },
+    'fontFamily': 'Fantasy',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#f529',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
 flowchart LR
     subgraph Data_Sources["Data Sources"]
         A["Disparate Network Data"]
-        style A fill:#ccf,stroke:#333,stroke-width:1px
+        style A fill:#ccf3,stroke:#333,stroke-width:1px
     end
     subgraph TwHIN_Construction["TwHIN Construction"]
         B["Organize & Construct TwHIN<br>(Heterogeneous Information Network)"]
-        style B fill:#aaf,stroke:#333,stroke-width:1px
+        style B fill:#aaf3,stroke:#333,stroke-width:1px
     end
     subgraph Embedding_Training["Embedding Training"]
         C["Self-Supervised KGE Objective<br>(TransE)"]
-        style C fill:#88f,stroke:#333,stroke-width:1px
+        style C fill:#88f3,stroke:#333,stroke-width:1px
     end
     subgraph TwHIN_Embeddings["TwHIN Embeddings"]
         D["Learned Entity Embeddings"]
-        style D fill:#66f,stroke:#333,stroke-width:1px
+        style D fill:#66f3,stroke:#333,stroke-width:1px
     end
     subgraph Downstream_Tasks["Downstream Tasks"]
         E["Candidate Generation"]
         F["Personalized Ranking"]
         G["Prediction Tasks"]
         
-        style E fill:#aaffee,stroke:#333,stroke-width:1px
-        style F fill:#aaffee,stroke:#333,stroke-width:1px
-        style G fill:#aaffee,stroke:#333,stroke-width:1px
+        style E fill:#afe3,stroke:#333,stroke-width:1px
+        style F fill:#afe3,stroke:#333,stroke-width:1px
+        style G fill:#afe3,stroke:#333,stroke-width:1px
     end
     
     A --> B
@@ -348,7 +418,7 @@ flowchart LR
     D --> E
     D --> F
     D --> G
-    
+   
 ```
 
 **Explanation of the Flowchart (End-to-End Framework):**
@@ -371,25 +441,49 @@ This high-level diagram shows the overall system architecture and data flow, cle
 Finally, let's illustrate the **Compression for Low Latency** and **Parameter Drift Mitigation** practical considerations (Section 7) using a combined diagram.
 
 ```mermaid
+---
+title: "The **Compression for Low Latency** and **Parameter Drift Mitigation** practical considerations"
+config:
+  layout: elk
+  look: handDrawn
+  theme: dark
+---
+%%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Available curve styles include the following keywords:
+%% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
+%%{
+  init: {
+    "flowchart": { "htmlLabels": false, 'curve': 'linear' },
+    'fontFamily': 'Fantasy',
+    'themeVariables': {
+      'primaryColor': '#BB2528',
+      'primaryTextColor': '#f529',
+      'primaryBorderColor': '#7C0000',
+      'lineColor': '#F8B229',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
 flowchart LR
     subgraph Compression_for_Low_Latency_Product_Quantization["Compression for Low Latency -<br>Product Quantization"]
         CA["TwHIN Embeddings<br>(Large Dimension)"] --> CB{"Product Quantization Training<br>(FAISS)"}
         CB --> CC["Export Codebook<br>(Centers)"]
         CD["Downstream Task Training"] -- Codebook Available --> CE["Decode Compressed Embeddings<br>(Codebook Lookup)"]
         CF["Inference Time"] -- Codebook Lookup --> CG["Decode Compressed Embeddings"]
-        style CB fill:#cff,stroke:#333,stroke-width:1px
+        style CB fill:#cff3,stroke:#333,stroke-width:1px
     end
     subgraph Parameter_Drift_Mitigation["Parameter Drift Mitigation"]
         subgraph Warm_Start["Warm Start"]
             DWA["TwHIN Version n-1 Embeddings"] --> DWB["Initialize TwHIN Version n Embeddings"]
             DWC{"New Vertices?"} -- Yes --> DWD["Initialize with Neighbor Average (Equation 5)<br>or Random"]
             DWC -- No --> DWB
-            style DWB fill:#ffc,stroke:#333,stroke-width:1px
+            style DWB fill:#ffc3,stroke:#333,stroke-width:1px
         end
         subgraph Regularization_L2["Regularization<br>(L2)"]
             DRA["Traditional KGE Objective"] --> DRB{"Add L2 Regularization to Previous Embedding"}
             DRB --> DRC["Penalize Deviation from Previous Version"]
-            style DRB fill:#ffc,stroke:#333,stroke-width:1px
+            style DRB fill:#ffc3,stroke:#333,stroke-width:1px
         end
     end
     
