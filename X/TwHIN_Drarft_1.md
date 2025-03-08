@@ -234,7 +234,7 @@ title: "TwHIN Embedding Process"
 config:
   layout: elk
   look: handDrawn
-  theme: dark
+  theme: base
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -244,9 +244,9 @@ config:
     "flowchart": { "htmlLabels": false, 'curve': 'linear' },
     'fontFamily': 'Fantasy',
     'themeVariables': {
-      'primaryColor': '#BB2528',
-      'primaryTextColor': '#f529',
-      'primaryBorderColor': '#7C0000',
+      'primaryColor': '#BB28',
+      'primaryTextColor': '#299',
+      'primaryBorderColor': '#7c2',
       'lineColor': '#F8B229',
       'secondaryColor': '#006100',
       'tertiaryColor': '#fff'
