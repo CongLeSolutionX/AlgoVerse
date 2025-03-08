@@ -31,8 +31,9 @@ Based on the provided Chinese research white paper, here's a breakdown of the do
 ### I. Overall Structure
 
 The paper explores two main technical approaches for attacking RSA public-key cryptography using quantum annealing, both leveraging the D-Wave quantum computer:
-    * **Approach 1: Pure Quantum Algorithm:** Convert the cryptographic attack into a combinatorial optimization problem suitable for D-Wave's architecture.
-    *   **Approach 2: Quantum-Classical Hybrid Algorithm:** Augment a classical lattice reduction algorithm with quantum annealing for enhanced CVP (Closest Vector Problem) solving.
+
+- **Approach 1: Pure Quantum Algorithm:** Convert the cryptographic attack into a combinatorial optimization problem suitable for D-Wave's architecture.
+- **Approach 2: Quantum-Classical Hybrid Algorithm:** Augment a classical lattice reduction algorithm with quantum annealing for enhanced CVP (Closest Vector Problem) solving.
 
 ----
 
