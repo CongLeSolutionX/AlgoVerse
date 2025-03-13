@@ -24,6 +24,8 @@ original source: "https://www.packtpub.com/en-us/product/python-data-structures-
 
 This document is an expansion of the initial version [here](./Advanced_Data_Structures_Draft_1.md), exploring advanced data structures in Python, focusing on their implementation, operations, time complexities, and applications. We will cover stacks, queues, trees, and graphs.
 
+---
+
 ### Stacks
 
 A stack is a linear data structure that follows the **Last-In, First-Out (LIFO)** principle.  Think of it like a stack of plates: you can only add or remove plates from the top.
@@ -90,6 +92,8 @@ Stacks can be implemented using either nodes (linked lists) or lists (arrays).
 *   **Undo/Redo Functionality:** Implementing undo and redo operations in applications.
 * **Depth-First Search (DFS):** Used in graph traversal (discussed later).
 * **Backtracking Algorithms:** Used in solving constraint satisfaction problems.
+
+---
 
 ### Queues
 
@@ -166,6 +170,8 @@ Queues can be implemented using:
 *   **Operating System Task Scheduling:**  Managing processes waiting for CPU time.
 *   **Breadth-First Search (BFS):** Used in graph traversal (discussed later).
 * **Asynchronous Task Processing:** Managing tasks in web servers and other concurrent systems.
+
+---
 
 ### Trees
 
@@ -444,6 +450,8 @@ graph TD
 
 *   **External Balancing:**  Balancing operations are performed after insertion or deletion, rather than during.
 
+----
+
 ### Graphs
 
 Graphs are non-linear data structures consisting of vertices (nodes) and edges that connect them. Graphs can represent relationships between objects.
@@ -637,6 +645,8 @@ graph LR
 
 *   **Strongly Connected Components:**  Finding subsets of vertices in a directed graph where there's a path between any two vertices in the subset.  Kosaraju's algorithm and Tarjan's algorithm are commonly used.  Time Complexity: O(V + E).
 
+---
+
 ### Big O Notation
 
 Big O notation is used to describe the performance or complexity of an algorithm. It specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g., in memory or on disk) by an algorithm.
@@ -648,6 +658,8 @@ Big O notation is used to describe the performance or complexity of an algorithm
 * **O(n^2):** Quadratic time. The algorithm's running time increases quadratically with the input size.  Common in nested loops.
 * **O(2^n):** Exponential time. The algorithm's running time doubles with each addition to the input data set.
 * **O(n!):** Factorial time.  The algorithm's running time grows factorially with the input size.
+
+---
 
 ### Practical Examples with Python Code
 
