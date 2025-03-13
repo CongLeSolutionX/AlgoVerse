@@ -121,7 +121,8 @@ Selection Sort divides the input list into two parts: a sorted sublist of items 
 *   **Space Complexity:** O(1) - In-place algorithm.
 *   **Stability:** Typically unstable, but can be implemented stably with slight modifications (at the cost of potentially increased space complexity).
 *    **Pseudocode:**
-    ```
+
+    ```md
     procedure selectionSort(A : list of sortable items)
         n = length(A)
         for i = 0 to n - 2 inclusive do
@@ -144,8 +145,6 @@ Selection Sort divides the input list into two parts: a sorted sublist of items 
     end procedure
     ```
 
-```
-
 ---
 
 ### Quick Sort
@@ -163,7 +162,8 @@ Quick Sort is a highly efficient, divide-and-conquer sorting algorithm.  It work
 *   **Space Complexity:** O(log n) average, O(n) worst-case due to recursive calls.  The space complexity depends on the implementation and the depth of the recursion.  In-place partitioning is possible, but the recursive calls still consume stack space.
 *   **Stability:** Typically unstable.
 *   **Pseudocode**
-    ```
+
+    ```md
     procedure quickSort(A : list of sortable items, low : integer, high : integer)
         if low < high then
             p = partition(A, low, high)
@@ -207,7 +207,8 @@ Merge Sort is another efficient, divide-and-conquer sorting algorithm. It divide
 *   **Space Complexity:** O(n) - Requires auxiliary space proportional to the input size for the merging process.  Not in-place.
 *   **Stability:** Stable.
 * **Pseudocode:**
-    ```
+
+    ```md
     procedure mergeSort(A : list of sortable items, low : integer, high : integer)
       if low >= high then
           return  // Returns recursively
@@ -284,7 +285,8 @@ Heap Sort is a comparison-based sorting algorithm that uses a binary heap data s
 *   **Stability:** Unstable.
 
 *   **Pseudocode**
-    ```
+
+    ```md
     procedure heapSort(A : list of sortable items)
         n = length(A)
 
@@ -327,6 +329,7 @@ Heap Sort is a comparison-based sorting algorithm that uses a binary heap data s
             heapify(A, n, largest)
         end if
     end procedure
+
     ```
 
 ---
@@ -349,7 +352,7 @@ Bucket Sort is a distribution-based sorting algorithm that works by distributing
 *   **Stability:** Stable (if the underlying sorting algorithm used for the buckets is stable).
 * **Pseudocode:**
 
-```
+```md
 procedure bucketSort(A : list of sortable items, k : number of buckets)
     buckets = array of k empty lists
     M = the maximum key value in the input array
@@ -378,7 +381,8 @@ Radix Sort is a non-comparative integer sorting algorithm that sorts data with i
 *   **Space Complexity:** O(n + k)
 *   **Stability:** Stable.
 *   **Pseudocode**
-    ```
+
+    ```md
     procedure radixSort(A : list of sortable items, d : number of digits)
         for i = 0 to d - 1 inclusive do
             // Use a stable sort to sort array A on digit i
@@ -393,7 +397,9 @@ Radix Sort is a non-comparative integer sorting algorithm that sorts data with i
        // Modify the count array to store the actual position of this digit in output array
        // Build the output array
     end procedure
+    
     ```
+
     **Counting Sort (Subroutine for Radix Sort)**: Counting sort is often used as the stable sorting subroutine in radix sort. It works by counting the occurrences of each distinct element (in this case, each digit) and using those counts to determine the positions of the elements in the sorted output.
 
 ---
