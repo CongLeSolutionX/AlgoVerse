@@ -155,6 +155,10 @@ let D6 = ["U", "L", "R", "D"]
 print(countPlusSigns(N: N6, L: L6, D: D6))//0
 ```
 
+The full code implementation is in this link: https://github.com/CongLeSolutionX/MyApp/tree/META_CODING_PUZZLES_Mathematical_Art
+
+
+
 Key improvements and explanations in the code:
 
 *   **Set for Line Storage:**  `horizontalLines` and `verticalLines` are `Set<[Int]>`.  This is crucial for efficient `contains` checks later.  We use `[Int]` (an array of integers) instead of a custom struct for simplicity, as Swift's built-in array type is hashable if its elements are hashable.
