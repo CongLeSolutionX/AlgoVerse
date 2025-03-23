@@ -234,8 +234,8 @@ graph LR
         H --> P(Maximum A-Posteriori: MAP);
         H --> R(Overfitting);
     end
-    style A fill:#ccf,stroke:#333,stroke-width:2px
-    style H fill:#ccf,stroke:#333,stroke-width:2px
+    style A fill:#ccf3,stroke:#333,stroke-width:2px
+    style H fill:#ccf3,stroke:#333,stroke-width:2px
 ```
 
 ----
