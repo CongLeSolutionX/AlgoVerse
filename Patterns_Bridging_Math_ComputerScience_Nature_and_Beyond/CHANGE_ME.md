@@ -8,7 +8,7 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 
 
-# CHANGE_ME
+# CHANGE_ME - A Diagrammatic Guide 
 > **Disclaimer:**
 >
 > This document contains my personal notes on the topic,
@@ -20,7 +20,6 @@ copyright: Copyright (c) 2025 Cong Le. All Rights Reserved.
 ---
 
 
-## A Diagrammatic Guide 
 
 ---
 **Licenses:**
