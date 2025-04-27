@@ -53,21 +53,24 @@ The solution evolved through several stages, marked by key insights gained from 
 ```mermaid
 ---
 title: "The Journey & Turning Points"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
+  layout: elk
   look: handDrawn
-  theme: base
+  theme: default
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Toggle theme value to `base` to activate the initilization below for the customized theme version.
 %%%%%%%% Available curve styles include the following keywords:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': {'htmlLabels': true},
     'fontFamily': 'Monospace',
     'themeVariables': {
-      'primaryColor': '#BB28',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#7c2',
       'lineColor': '#F8B229'
     }
   }
@@ -117,25 +120,25 @@ The failure of the simple greedy approach made it clear that the probability of 
 ```mermaid
 ---
 title: "Approach 2: `C/S` Threshold Greedy"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   look: handDrawn
-  theme: base
+  theme: default
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Toggle theme value to `base` to activate the initilization below for the customized theme version.
 %%%%%%%% Available curve styles include the following keywords:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': {'htmlLabels': true, 'curve': 'basis' },
     'fontFamily': 'Monospace',
     'themeVariables': {
-      'primaryColor': '#BB28',
-      'primaryTextColor': '#000',
-      'primaryBorderColor': '#7c2',
-      'lineColor': '#F8B229',
-      'secondaryColor': '#006100',
-      'tertiaryColor': '#fff'
+      'lineColor': '#F8B229'
     }
   }
 }%%
@@ -208,25 +211,25 @@ The failure of the `C/S` threshold on specific test cases (like Sample Case #4) 
 ```mermaid
 ---
 title: "Approach 4: Dynamic Programming"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   look: handDrawn
-  theme: base
+  theme: default
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Toggle theme value to `base` to activate the initilization below for the customized theme version.
 %%%%%%%% Available curve styles include the following keywords:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': {'htmlLabels': true, 'curve': 'basis' },
     'fontFamily': 'Monospace',
     'themeVariables': {
-      'primaryColor': '#BB28',
-      'primaryTextColor': '#000',
-      'primaryBorderColor': '#7c2',
-      'lineColor': '#F8B229',
-      'secondaryColor': '#006100',
-      'tertiaryColor': '#fff'
+      'lineColor': '#F8B229'
     }
   }
 }%%
@@ -259,25 +262,25 @@ flowchart TD
 ```mermaid
 ---
 title: "`calculateFutureProfit` Helper"
+author: "Cong Le"
+version: "1.0"
+license(s): "MIT, CC BY 4.0"
+copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   layout: elk
   look: handDrawn
-  theme: base
+  theme: default
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
+%%%%%%%% Toggle theme value to `base` to activate the initilization below for the customized theme version.
 %%%%%%%% Available curve styles include the following keywords:
 %% basis, bumpX, bumpY, cardinal, catmullRom, linear, monotoneX, monotoneY, natural, step, stepAfter, stepBefore.
 %%{
   init: {
-    'flowchart': { 'htmlLabels': false, 'curve': 'linear' },
+    'flowchart': {'htmlLabels': true, 'curve': 'basis' },
     'fontFamily': 'Monospace',
     'themeVariables': {
-      'primaryColor': '#BB28',
-      'primaryTextColor': '#000',
-      'primaryBorderColor': '#7c2',
-      'lineColor': '#F8B229',
-      'secondaryColor': '#006100',
-      'tertiaryColor': '#fff'
+      'lineColor': '#F8B229'
     }
   }
 }%%
