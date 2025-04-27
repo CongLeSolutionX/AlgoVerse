@@ -30,7 +30,7 @@ title: "Overall Problem-Solving Progression"
 config:
   layout: elk
   look: handDrawn
-  theme: base
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -81,7 +81,7 @@ title: "Approach 2: C/S Threshold Greedy Logic"
 config:
   layout: elk
   look: handDrawn
-  theme: base
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -137,7 +137,7 @@ title: "Approach 4: DP - Backward Threshold Calculation Algorithm"
 config:
   layout: elk
   look: handDrawn
-  theme: base
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -195,7 +195,7 @@ title: "Approach 4: Helper - `calculateFutureProfit` Simulation"
 config:
   layout: elk
   look: handDrawn
-  theme: base
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Available curve styles include the following keywords:
@@ -250,7 +250,7 @@ license(s): "MIT, CC BY 4.0"
 copyright: "Copyright (c) 2025 Cong Le. All Rights Reserved."
 config:
   look: handDrawn
-  theme: base
+  theme: dark
 ---
 %%%%%%%% Mermaid version v11.4.1-b.14
 %%%%%%%% Toggle theme value to `base` to activate the initilization below for the customized theme version.
