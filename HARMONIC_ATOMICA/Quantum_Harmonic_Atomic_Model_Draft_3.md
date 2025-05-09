@@ -601,10 +601,7 @@ The atom is reframed as a **musical mandala**: harmonic lattices, animated by qu
 
 <!-- ![An_atom_depicted_as_a_musical_mandala](./ASSETS/An_atom_depicted_as_a_musical_mandala.png) -->
 
-![Atom as musical universal resonance](https://commons.wikimedia.org/wiki/File:Atom_as_musical_universal_resonance.png "Atom as musical universal resonance")
-
-
-
+![Atom as musical universal resonance](https://upload.wikimedia.org/wikipedia/commons/6/68/Atom_as_musical_universal_resonance.png "Atom as musical universal resonance")
 
 ---
 **References:**  
