@@ -413,38 +413,38 @@ config:
   }
 }%%
 mindmap
-  root((Golden Ratio Search))
-    Goal["Find min/max of a unimodal function in [a, b]"]
-    Key_Features
-      Iterative_Interval_Reduction
-      Uses_Golden_Ratio_φ["≈ 1.618"]
-      Requires_Unimodality
-      No_Derivatives_Needed
-    Core_Mechanism
+  root)"Golden Ratio Search"(
+    Goal("Goal:<br/>Find min/max of a unimodal function in [a, b]")
+    Key_Features))"Key Features"((
+      Iterative_Interval_Reduction["Iterative Interval Reduction"]
+      Uses_Golden_Ratio_φ["Uses Golden Ratio φ ≈ 1.618"]
+      Requires_Unimodality["Requires Unimodality"]
+      No_Derivatives_Needed["No Derivatives Needed"]
+    Core_Mechanism))"Core Mechanism"((
       Probe_Points["c, d based on φ"]
       Comparison["Compare f(c) and f(d)"]
       Elimination["Discard part of interval based on comparison"]
       Reuse["One old probe point becomes a new probe point"]
-      Efficiency["Only 1 new f(x) evaluation per iteration (after first)"]
-    Prerequisites
-      Function_f_x_["Functionf(x):<br> Must be Unimodal on [a, b]"]
-      Interval_a_b["Interval [a, b]:<br>Initial bounds"]
+      Efficiency["Only 1 new f(x) evaluation per iteration<br/>(after first)"]
+    Prerequisites))"Prerequisites"((
+      Function_f_x_["Functionf(x):<br/>Must be Unimodal on [a, b]"]
+      Interval_a_b["Interval [a, b]:<br/>Initial bounds"]
       Tolerance_ε["Stopping criterion"]
-    Algorithm_Steps
+    Algorithm_Steps))"Algorithm Steps"((
       Initialize["a, b, ε, calculate initial c, d, fc, fd"]
       Loop["While (b - a > ε)"]
         Compare["f(c) vs f(d)"]
         Update["a or b, reuse one point (c or d), calculate one new point"]
         Evaluate["New f(c) or f(d)"]
       Terminate["Return midpoint (a+b)/2"]
-    Complexity
+    Complexity))"Complexity"((
       Time["O(log((b-a)/ε)) - Logarithmic"]
       Space["O(1) - Constant"]
-    Advantages
+    Advantages))"Advantages"((
       Efficient["Converges linearly with rate ≈ 0.618"]
       Simple["Conceptually straightforward"]
-      No_Derivatives
-    Limitations
+      No_Derivatives["No Derivatives"]
+    Limitations))"Limitations"((
       Requires_Unimodality["Doesn't work for multi-modal functions"]
       Requires_Interval["Need initial bracket for the extremum"]
 
