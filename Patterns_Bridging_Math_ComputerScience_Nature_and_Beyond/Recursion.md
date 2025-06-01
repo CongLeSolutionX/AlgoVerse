@@ -466,32 +466,32 @@ config:
   }
 }%%
 mindmap
-  root((Recursion in Computer Science))
-    Definition
+  root)"Recursion in Computer Science"(
+    Definition))"Definition"((
       [A function calling itself within its own definition]
-    Key_Components
+    Key_Components))"Key Components"((
       Base_Case
         [The condition that stops the recursion]
         [Prevents infinite loops and stack overflow]
       Recursive_Step
         [The part of the function where it calls itself]
         [Input is modified to approach the base case]
-    Visualization
+    Visualization))"Visualization"((
       Call_Stack
         [A data structure that tracks active function calls]
         [Each recursive call adds a new frame to the stack]
         [Frames are removed upon function return]
-    Examples
+    Examples))"Examples"((
       Factorial
-        ["n! = n * (n-1)!; base case: 0! = 1"]
+        ["n! = n * (n-1)!;<br/> Base case: 0! = 1"]
         [Illustrates a single recursive call]
       Fibonacci_Sequence
-        ["F(n) = F(n-1) + F(n-2); base cases: F(0) = 0, F(1) = 1"]
+        ["F(n) = F(n-1) + F(n-2);<br/> Base cases: F(0) = 0, F(1) = 1"]
         [Illustrates multiple recursive calls]
       Towers_of_Hanoi
         [Classic puzzle solved elegantly with recursion]
         [Demonstrates problem decomposition into subproblems]
-    Recursion_vs_Iteration
+    Recursion_vs_Iteration))"Recursion vs Iteration"((
       Readability
         [Recursion often more readable for recursive problems]
         [Iteration can be less readable for complex logic]
@@ -504,22 +504,22 @@ mindmap
       Space_Complexity
         ["Recursion can use more memory<br>(call stack)"]
         [Iteration generally uses less memory]
-    Tail_Recursion
+    Tail_Recursion))"Tail Recursion"((
       [Recursive call is the very last operation]
       ["Can be optimized by compilers<br>(Tail Call Optimization - TCO)"]
       [Swift has limited TCO support]
-    Common_Recursive_Problems
+    Common_Recursive_Problems))"Common Recursive Problems"((
       Tree_Traversals
       Graph_Traversals
       Divide_and_Conquer_Algorithms
       Fractals
       Backtracking_Problems
-    Swift_Implementation
+    Swift_Implementation))"Swift Implementation"((
       [Examples of recursive functions in Swift]
       [Consideration of TCO in Swift]
-    Mathematical_Representation
+    Mathematical_Representation))"Mathematical Representation"((
       ["Recursive relation: n! = n * (n-1)! for n > 0"]
-      [Base case: n! = 1 for n=0]
+      [Base case:<br/> n! = 1 for n=0]
 
 ```
 
