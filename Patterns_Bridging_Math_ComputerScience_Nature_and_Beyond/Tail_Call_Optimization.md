@@ -349,29 +349,29 @@ config:
   }
 }%%
 mindmap
-    root(("Tail Call Optimization<br>(TCO)"))
-      Definition
+    root)"Tail Call Optimization<br>(TCO)"(
+      Definition))"Definition"((
         Short[Compiler optimization for tail calls.]
         Long[Reuses stack frame for tail calls, preventing stack growth and improving performance.]
-      Tail_Call
+      Tail_Call))"Tail Call"((
         Definition[A function call that is the *last* operation performed by another function.]
-      Tail_Recursion
+      Tail_Recursion))"Tail Recursion"((
         Definition[A special case of recursion where the recursive call is a tail call.]
-      Benefits
+      Benefits))"Benefits"((
         Stack_Overflow_Prevention[Avoids stack overflow errors in deeply recursive functions.]
         Performance_Improvement[Reduces overhead of creating new stack frames.]
-      Swift_Specifics
+      Swift_Specifics))"Swift Specifics"((
         Available[The Swift compiler *can* perform TCO, especially with optimization flags.]
         Not_Guaranteed[Swift *does not guarantee* TCO at the language level.]
         Workaround[Manually transform tail-recursive functions into loops if stack safety is critical.]
-      Use_Cases
+      Use_Cases))"Use Cases"((
         Recursive_Algorithms
         Functional_Programming
         Compilers_Interpreters
         State_Machines
         Event_Loops
-      Alternatives
-        Iterative_Solutions[Use loops instead of recursion.]
+      Alternatives))"Alternatives"((
+        Iterative_Solutions[Use loops instead of recursion]
         
 ```
 
