@@ -130,6 +130,7 @@ The Fibonacci sequence (0, 1, 1, 2, 3, 5, 8, 13, 21, ...) is closely related.  E
 ...and so on...
 ```
 Here is the mathematical equation:
+
 $$
 \lim_{n \to \infty} \frac{F_{n+1}}{F_n} = \phi
 $$
