@@ -230,24 +230,24 @@ config:
   }
 }%%
 mindmap
-    root((Higher-Order Fibonacci Sequences))
-        Fibonacci_Sequence["Fibonacci Sequence<br>(Order 2)"]
+    root)"Higher-Order Fibonacci Sequences"(
+        Fibonacci_Sequence))"Fibonacci Sequence<br>(Order 2)"((
             Initial_Values["0, 1"]
             Recurrence_Relation["F(n) = F(n-1) + F(n-2)"]
             Golden_Ratio["φ ≈ 1.618"]
-        Tribonacci_Sequence["Tribonacci Sequence<br>(Order 3)"]
+        Tribonacci_Sequence))"Tribonacci Sequence<br>(Order 3)"((
             Initial_Values["0, 0, 1"]
             Recurrence_Relation["T(n) = T(n-1) + T(n-2) + T(n-3)"]
             Tribonacci_Constant["τ ≈ 1.839"]
-        Tetranacci_Sequence["Tetranacci Sequence<br>(Order 4)"]
+        Tetranacci_Sequence))"Tetranacci Sequence<br>(Order 4)"((
             Initial_Values["0, 0, 0, 1"]
             Recurrence_Relation["Tet(n) = Tet(n-1) + Tet(n-2) + Tet(n-3) + Tet(n-4)"]
-        Generalization["k-th Order Fibonacci Sequence"]
+        Generalization))"k-th Order Fibonacci Sequence"((
          Recurrence_Relation1["F_k(n) = F_k(n-1) + F_k(n-2) + ... + F_k(n-k)"]    
-        Characteristic_Polynomial["Characteristic Polynomial"]
+        Characteristic_Polynomial))"Characteristic Polynomial"((
             Equation["x^k - x^(k-1) - ... - x - 1 = 0"]
             Roots["The limiting ratio of consecutive terms is a root of this polynomial"]
-        Applications
+        Applications))"Applications"((
             Mathematics["Number theory, combinatorics"]
             Computer_Science["Algorithm analysis, data structures"]
             Potentially_Other_Fields["Modeling growth patterns, similar to Fibonacci"]
