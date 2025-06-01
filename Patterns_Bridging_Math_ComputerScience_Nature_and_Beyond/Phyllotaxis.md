@@ -304,26 +304,26 @@ config:
   }
 }%%
 mindmap
-    root((Phyllotaxis))
-        Definition[The arrangement of leaves, seeds, or other botanical elements on a plant stem]
-        Golden_Angle
-            Definition["Approximately 137.5 degrees, derived from the Golden Ratio (φ)"]
+    root)"Phyllotaxis"(
+        Definition("Definition:<br/>The arrangement of leaves, seeds, or other botanical elements on a plant stem")
+        Golden_Angle))"Golden Angle"((
+            Definition["Approximately 137.5 degrees,<br/> derived from the Golden Ratio (φ)"]
             Formula["Formula:<br>360° / φ² or 360° * (2 - φ)"]
-            Importance[Leads to optimal packing and even distribution of plant organs]
-        Divergence_Angle
+            Importance["Leads to optimal packing and even distribution of plant organs"]
+        Divergence_Angle))"Divergence Angle"((
             Definition["The angle between successive plant organs around the stem"]
             Golden_Angle_as_Example["The Golden Angle is the most common divergence angle"]
-        Fibonacci_Sequence
+        Fibonacci_Sequence))"Fibonacci Sequence"((
             Relation["The number of spirals in many phyllotactic patterns corresponds to Fibonacci numbers"]
-        Optimal_Packing
+        Optimal_Packing))"Optimal Packing"((
             Explanation["The Golden Angle arrangement maximizes space efficiency and minimizes overlap"]
-        Examples
-            Sunflower["Sunflower: Seed arrangement"]
-            Pinecone["Pinecone: Scale arrangement"]
-            Pineapple["Pineapple: Eye arrangement"]
-            Succulents["Succulents: Leaf arrangement"]
-            Cauliflower["Cauliflower: Arrangement of florets"]
-        Mathematical_Representation
+        Examples))"Examples"((
+            Sunflower["Sunflower:<br/>Seed arrangement"]
+            Pinecone["Pinecone:<br/>Scale arrangement"]
+            Pineapple["Pineapple:<br/>Eye arrangement"]
+            Succulents["Succulents:<br/>Leaf arrangement"]
+            Cauliflower["Cauliflower:<br/>Arrangement of florets"]
+        Mathematical_Representation))"Mathematical Representation"((
             Equation["Angle = 360° * (2 - φ)"]
 ```
 
