@@ -265,7 +265,7 @@ graph LR
 *   **Step 6:** Within each square, draw a quarter-circle (arc) with a radius equal to the square's side length.  Connect these arcs to form the spiral.
 
 > [!TIP]
-> 🤔 Does this look like or relate to how neutral networks being contructed in the architecture of Large Language Models?
+> 🙊 Does this look like or relate to how neutral networks being contructed in the architecture of Large Language Models?
 
 ----
 
