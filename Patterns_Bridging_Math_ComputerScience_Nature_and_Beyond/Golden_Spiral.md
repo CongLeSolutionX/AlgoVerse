@@ -395,27 +395,27 @@ config:
   }
 }%%
 mindmap
-      root((Golden Spiral & Golden Ratio))
-        Golden_Spiral
-          Definition[A logarithmic spiral that gets wider by a factor of φ for every quarter turn it makes]
-          Construction[Created using a sequence of squares with sizes based on the Fibonacci sequence]
-          Approximation[Approximates the Golden Ratio]
-        Fibonacci_Sequence
-          Definition["A sequence where each number is the sum of the two preceding ones (0, 1, 1, 2, 3, 5, 8, ...)"]
+      root)"Golden Spiral &<br/> Golden Ratio"(
+        Golden_Spiral))"Golden Spiral"((
+          Definition["A logarithmic spiral that gets wider by a factor of φ for every quarter turn it makes"]
+          Construction["Created using a sequence of squares with sizes based on the Fibonacci sequence"]
+          Approximation["Approximates the Golden Ratio"]
+        Fibonacci_Sequence))"Fibonacci Sequence"((
+          Definition["A sequence where each number is the sum of the two preceding ones<br/>(0, 1, 1, 2, 3, 5, 8, ...)"]
           Formula["F(n) = F(n-1) + F(n-2)"]
-          Relation_to_Golden_Ratio[The ratio of consecutive Fibonacci numbers approaches φ]
-        Golden_Ratio
+          Relation_to_Golden_Ratio["The ratio of consecutive Fibonacci numbers approaches φ"]
+        Golden_Ratio))"Golden Ratio"((
           Symbol["φ (phi)"]
-          Value[Approximately 1.618]
+          Value["Value Approximately is 1.618"]
           Mathematical_Definition["(a + b) / a = a / b = φ"]
           Sectio_Aurea["Latin for 'Golden Section'"]
           Properties
-            Irrational_Number[Cannot be expressed as a simple fraction]
-            Self_Similar[Found in various proportions within the Golden Spiral]
-        Applications
-          Art_and_Design[Used for aesthetically pleasing proportions]
-          Nature[Observed in patterns in plants, shells, and galaxies]
-          Architecture[Used in the design of buildings and structures]
+            Irrational_Number["Cannot be expressed as a simple fraction"]
+            Self_Similar["Found in various proportions within the Golden Spiral"]
+        Applications))"Applications"((
+          Art_and_Design["Used for aesthetically pleasing proportions"]
+          Nature["Observed in patterns in plants, shells, and galaxies"]
+          Architecture["Used in the design of buildings and structures"]
         Mathematical_Representation
 	        Limit_of_Fibonacci_Ratio["The limit of F(n+1)/F(n) as n approaches infinity is φ"]
 	        
