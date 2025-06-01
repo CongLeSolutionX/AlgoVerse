@@ -115,24 +115,24 @@ config:
   }
 }%%
 mindmap
-  root((Golden Ratio Search Concepts))
-    Unimodal_Function
+  root)"Golden Ratio Search Concepts"(
+    Unimodal_Function))"Unimodal Function"((
       Definition["Function with a single minimum OR maximum in the interval"]
       Importance["Essential prerequisite for the algorithm to guarantee convergence"]
       Visualization["Looks like a single 'valley' (min) or 'hill' (max)"]
-    Interval_[a, b]
+    Interval_a_b))"Interval [a, b]"((
       Definition["The search space containing the extremum"]
       Role["Shrinks iteratively during the search"]
-    Golden_Ratio_(φ)
+    Golden_Ratio))"Golden Ratio (φ)"((
       Value["(1 + √5) / 2 ≈ 1.618"]
       Reciprocal["1/φ = φ - 1 ≈ 0.618"]
       Usage["Determines placement of probe points `c` and `d`"]
-    Probe_Points_(c, d)
+    Probe_Points_c_d))"Probe Points (c, d)"((
       Location["Inside the current interval [a, b]"]
       Placement["c = a + (1 - 1/φ)*(b-a)<br>d = a + (1/φ)*(b-a)"]
       Symmetry["Symmetrically placed relative to interval scaled by φ"]
       Purpose["Function values f(c) and f(d) are compared to eliminate part of the interval"]
-    Tolerance_(ε)
+    Tolerance))"Tolerance (ε)"((
       Definition["Desired precision or stopping criterion"]
       Condition["Algorithm stops when b - a < ε"]
 ```
