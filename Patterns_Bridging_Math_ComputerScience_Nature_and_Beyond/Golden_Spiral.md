@@ -264,6 +264,9 @@ graph LR
 *   **Step 5:** Continue adding squares, where each new square's side length is the sum of the previous two squares' side lengths (following the Fibonacci sequence).
 *   **Step 6:** Within each square, draw a quarter-circle (arc) with a radius equal to the square's side length.  Connect these arcs to form the spiral.
 
+> [!TIP]
+> 🤔 Does this look like or relate to how neutral networks being contructed in the architecture of Large Language Models?
+
 ----
 
 ## 4. Spirals with Different Radii (Illustrative Example)
