@@ -203,8 +203,8 @@ flowchart LR
   My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/CongLeSolutionX/refs/heads/main/assets/images/My-meme-light-bulb-question-marks.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "off" }
 
   Closing_quote@{ shape: braces, label: "...searching insights in the process of formulating better questions..." }
-    
-  My_Meme ~~~ Closing_quote
+     
+  Closing_quote ~~~ My_Meme
     
   Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
 
