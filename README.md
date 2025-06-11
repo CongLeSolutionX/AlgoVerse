@@ -134,11 +134,35 @@ git clone https://github.com/CongLeSolutionX/AlgoVerse
 
 ---
 
+## 🚀 Project Current Activities
+
+<div align="left"><a name="project-current-activities"></a>
+
+<details open>
+<summary>Click to show/hide more on recent activities of this project </summary>
+
+> powered by [OSS Insight](https://ossinsight.io)
+<!-- All the diagrams below are made with [OSS Insight](https://ossinsight.io/) -->
+
+| :bar_chart: Widget & Description | :art: Snapshot (Light Mode) |
+|---|---|
+| Active Contributors :technologist: of AlgoVerse - Last 28 days | ![Active Contributors of AlgoVerse - Last 28 days](https://next.ossinsight.io/widgets/official/compose-recent-active-contributors/thumbnail.png?repo_id=909030209&limit=30&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/compose-recent-active-contributors?repo_id=909030209&limit=30) |
+| Pushes :arrow_up: and Commits :writing_hand: of AlgoVerse | ![Pushes and Commits of AlgoVerse](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month/thumbnail.png?repo_id=909030209&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-pushes-and-commits-per-month?repo_id=909030209) |
+| Pull Request Size :straight_ruler: of AlgoVerse | ![Pull Request Size of AlgoVerse](https://next.ossinsight.io/widgets/official/analyze-repo-pull-requests-size-per-month/thumbnail.png?repo_id=909030209&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-pull-requests-size-per-month?repo_id=909030209) |
+| Pull Request Lifecycle :arrows_counterclockwise: of AlgoVerse | ![Pull Request Lifecycle of AlgoVerse](https://next.ossinsight.io/widgets/official/analyze-repo-pull-request-open-to-merged/thumbnail.png?repo_id=909030209&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-pull-request-open-to-merged?repo_id=909030209) |
+| Lines of Code Changes :computer::scroll: of AlgoVerse | ![Lines of Code Changes of AlgoVerse](https://next.ossinsight.io/widgets/official/analyze-repo-loc-per-month/thumbnail.png?repo_id=909030209&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-loc-per-month?repo_id=909030209) |
+| Commits Time Distribution :alarm_clock::date: of AlgoVerse | ![Commits Time Distribution of AlgoVerse](https://next.ossinsight.io/widgets/official/analyze-repo-commits-time-distribution/thumbnail.png?repo_id=909030209&period=last_1_year&zone=0&image_size=auto&color_scheme=light) <br/> :link: [View Full Report :mag:](https://next.ossinsight.io/widgets/official/analyze-repo-commits-time-distribution?repo_id=909030209&period=last_1_year&zone=0) | 
+
+</details>
+
+</div>
+
+---
+
+
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place. I'm working on the setup for this section. TBD.
-
-----
 
 ---
 
