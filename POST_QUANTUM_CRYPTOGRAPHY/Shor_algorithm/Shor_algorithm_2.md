@@ -527,6 +527,18 @@ _Diagram 9: Comprehensive Summary Mind Map of Shor's Algorithm._
 ---
 
 <!-- 
+![The movie scene](https://people.math.harvard.edu/~knill/mathmovies/m4v/hangover.m4v)
+
+<video src="https://people.math.harvard.edu/~knill/mathmovies/m4v/hangover.m4v" width="500px" controls preload></video>
+
+
+Source: https://people.math.harvard.edu/~knill/mathmovies/swf/hangover.html
+-->
+
+
+---
+
+<!-- 
 ```mermaid
 %% Current Mermaid version
 info
