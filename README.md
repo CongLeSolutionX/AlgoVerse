@@ -9,6 +9,19 @@ Copyright (c) 2025 Cong Le. All Rights Reserved.
 
 ---
 
+> ⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷
+> 
+> This is a working project in progress.
+> 
+> ![Loading...](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYW1uZngyZGNrczdtM3V1anIwYnp4NnNuamEzdHd3MHZwaGFqcHZwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Fs4Fh8g3KxM3PEoGIB/giphy.gif)
+> 
+> gif image is provided by [Giphy](https://giphy.com)
+> 
+> ⚠️🏗️🚧🦺🧱🪵🪨🪚🛠️👷
+
+----
+
+
 Welcome to **AlgoVerse**! This repository is a comprehensive collection of structured algorithm frameworks designed for educational and research purposes. Whether you're a student, educator, researcher, or enthusiast, AlgoVerse provides in-depth analyses, mathematical breakdowns, and implementation guidance for a variety of fundamental and advanced algorithms.
 
 ## Table of Contents
