@@ -76,7 +76,7 @@ config:
 flowchart LR
   My_Meme@{ img: "https://raw.githubusercontent.com/CongLeSolutionX/MY_GRAPHIC_ASSETS/refs/heads/main/MY_MEME/My-meme-ideas.png", label: "Ăn uống gì chưa ngừi đẹp?", pos: "b", w: 200, h: 150, constraint: "off" }
 
-  Closing_quote@{ shape: braces, label: "With the right context,<br/>theory become reality" }
+  Closing_quote@{ shape: braces, label: "Math and code work together to bring interactive art to life!" }
     
   My_Meme ~~~ Closing_quote
     
