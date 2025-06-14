@@ -104,70 +104,70 @@ mindmap
 
     Part_II))"II. Sorting and Order Statistics 📊"((
       Intro_II["Introduction"]
-      Ch6{{"6. Heapsort"}}
+      Ch6{{"Chapter 6:<br/>Heapsort"}}
         Sec6_1["6.1 Heaps"]
         Sec6_2["6.2 Maintaining the heap property"]
         Sec6_3["6.3 Building a heap"]
         Sec6_4["6.4 The heapsort algorithm"]
         Sec6_5["6.5 Priority queues"]
-      Ch7{{"7. Quicksort"}}
+      Ch7{{"Chapter 7:<br/>Quicksort"}}
         Sec7_1["7.1 Description of quicksort"]
         Sec7_2["7.2 Performance of quicksort"]
         Sec7_3["7.3 A randomized version of quicksort"]
         Sec7_4["7.4 Analysis of quicksort"]
-      Ch8{{"8. Sorting in Linear Time ($O(n)$)"}}
+      Ch8{{"Chapter 8:<br/>Sorting in Linear Time<br/> ($O(n)$)"}}
         Sec8_1["8.1 Lower bounds for sorting ($\Omega(n \log n)$ for comparisons)"]
         Sec8_2["8.2 Counting sort"]
         Sec8_3["8.3 Radix sort"]
         Sec8_4["8.4 Bucket sort"]
-      Ch9{{"9. Medians and Order Statistics"}}
+      Ch9{{"Chapter 9:<br/>Medians and Order Statistics"}}
         Sec9_1["9.1 Minimum and maximum"]
         Sec9_2["9.2 Selection in expected linear time"]
         Sec9_3["9.3 Selection in worst-case linear time"]
 
     Part_III))"III. Data Structures 🗂️"((
       Intro_III["Introduction"]
-      Ch10{{"10. Elementary Data Structures (Stacks, Queues, Lists, Trees)"}}
+      Ch10{{"Chapter 10:<br/>Elementary Data Structures<br/>(Stacks, Queues, Lists, Trees)"}}
         Sec10_1["10.1 Stacks and queues"]
         Sec10_2["10.2 Linked lists"]
         Sec10_3["10.3 Implementing pointers and objects"]
         Sec10_4["10.4 Representing rooted trees"]
-      Ch11{{"11. Hash Tables ($h(k)$)"}}
+      Ch11{{"Chapter 11:<br/>Hash Tables<br/>($h(k)$)"}}
         Sec11_1["11.1 Direct-address tables"]
         Sec11_2["11.2 Hash tables"]
         Sec11_3["11.3 Hash functions"]
         Sec11_4["11.4 Open addressing"]
         Sec11_5["? 11.5 Perfect hashing"]
-      Ch12{{"12. Binary Search Trees"}}
+      Ch12{{"Chapter 12:<br/>Binary Search Trees"}}
         Sec12_1["12.1 What is a binary search tree?"]
         Sec12_2["12.2 Querying a binary search tree"]
         Sec12_3["12.3 Insertion and deletion"]
         Sec12_4["? 12.4 Randomly built binary search trees"]
-      Ch13{{"13. Red-Black Trees ❤️🖤"}}
+      Ch13{{"Chapter 13:<br/>Red-Black Trees ❤️🖤"}}
         Sec13_1["13.1 Properties of red-black trees"]
         Sec13_2["13.2 Rotations"]
         Sec13_3["13.3 Insertion"]
         Sec13_4["13.4 Deletion"]
-      Ch14{{"14. Augmenting Data Structures"}}
+      Ch14{{"Chapter 14:<br/>Augmenting Data Structures"}}
         Sec14_1["14.1 Dynamic order statistics"]
         Sec14_2["14.2 How to augment a data structure"]
         Sec14_3["14.3 Interval trees"]
 
     Part_IV))"IV. Advanced Design and Analysis Techniques 🛠️"((
       Intro_IV["Introduction"]
-      Ch15{{"15. Dynamic Programming"}}
+      Ch15{{"Chapter 15:<br/>Dynamic Programming"}}
         Sec15_1["15.1 Rod cutting"]
         Sec15_2["15.2 Matrix-chain multiplication"]
         Sec15_3["15.3 Elements of dynamic programming<br/>(Opt. Substructure, Overlapping Subproblems)"]
         Sec15_4["15.4 Longest common subsequence"]
         Sec15_5["15.5 Optimal binary search trees"]
-      Ch16{{"16. Greedy Algorithms 💰"}}
+      Ch16{{"Chapter 16:<br/>Greedy Algorithms 💰"}}
         Sec16_1["16.1 An activity-selection problem"]
         Sec16_2["16.2 Elements of the greedy strategy"]
         Sec16_3["16.3 Huffman codes"]
         Sec16_4["? 16.4 Matroids and greedy methods"]
         Sec16_5["? 16.5 A task-scheduling problem as a matroid"]
-      Ch17{{"17. Amortized Analysis (Aggregate, Accounting, Potential)"}}
+      Ch17{{"Chapter 17:<br/>Amortized Analysis<br/>(Aggregate, Accounting, Potential)"}}
         Sec17_1["17.1 Aggregate analysis"]
         Sec17_2["17.2 The accounting method"]
         Sec17_3["17.3 The potential method"]
@@ -175,20 +175,20 @@ mindmap
 
     Part_V))"V. Advanced Data Structures 🧱"((
       Intro_V["Introduction"]
-      Ch18{{"18. B-Trees (Disk-based)"}}
+      Ch18{{"Chapter 18:<br/>B-Trees<br/>(Disk-based)"}}
         Sec18_1["18.1 Definition of B-trees"]
         Sec18_2["18.2 Basic operations on B-trees"]
         Sec18_3["18.3 Deleting a key from a B-tree"]
-      Ch19{{"19. Fibonacci Heaps ($O(1)$ amortized INSERT)<br/>($O(\log n)$ amortized EXTRACT-MIN)"}}
+      Ch19{{"Chapter 19:<br/>Fibonacci Heaps ($O(1)$ amortized INSERT)<br/>($O(\log n)$ amortized EXTRACT-MIN)"}}
         Sec19_1["19.1 Structure of Fibonacci heaps"]
         Sec19_2["19.2 Mergeable-heap operations"]
         Sec19_3["19.3 Decreasing a key and deleting a node"]
         Sec19_4["19.4 Bounding the maximum degree"]
-      Ch20{{"20. van Emde Boas Trees ($O(\log\log u)$)"}}
+      Ch20{{"Chapter 20:<br/>van Emde Boas Trees ($O(\log\log u)$)"}}
         Sec20_1["20.1 Preliminary approaches"]
         Sec20_2["20.2 A recursive structure"]
         Sec20_3["20.3 The van Emde Boas tree"]
-      Ch21{{"21. Data Structures for Disjoint Sets (Union-Find)"}}
+      Ch21{{"Chapter 21:<br/>Data Structures for Disjoint Sets (Union-Find)"}}
         Sec21_1["21.1 Disjoint-set operations"]
         Sec21_2["21.2 Linked-list representation of disjoint sets"]
         Sec21_3["21.3 Disjoint-set forests"]
@@ -196,26 +196,26 @@ mindmap
 
     Part_VI))"VI. Graph Algorithms 🕸️ ($G=(V,E)$)"((
       Intro_VI["Introduction"]
-      Ch22{{"22. Elementary Graph Algorithms"}}
+      Ch22{{"Chapter 22:<br/>Elementary Graph Algorithms"}}
         Sec22_1["22.1 Representations of graphs"]
         Sec22_2["22.2 Breadth-ﬁrst search (BFS)"]
         Sec22_3["22.3 Depth-ﬁrst search (DFS)"]
         Sec22_4["22.4 Topological sort"]
         Sec22_5["22.5 Strongly connected components"]
-      Ch23{{"23. Minimum Spanning Trees (Kruskal, Prim)"}}
+      Ch23{{"Chapter 23:<br/>Minimum Spanning Trees (Kruskal, Prim)"}}
         Sec23_1["23.1 Growing a minimum spanning tree"]
         Sec23_2["23.2 The algorithms of Kruskal and Prim"]
-      Ch24{{"24. Single-Source Shortest Paths"}}
+      Ch24{{"Chapter 24:<br/>Single-Source Shortest Paths"}}
         Sec24_1["24.1 The Bellman-Ford algorithm ($\delta(s,v)$)"]
         Sec24_2["24.2 Single-source shortest paths in directed acyclic graphs"]
         Sec24_3["24.3 Dijkstra's algorithm"]
         Sec24_4["24.4 Difference constraints and shortest paths"]
         Sec24_5["24.5 Proofs of shortest-paths properties"]
-      Ch25{{"25. All-Pairs Shortest Paths"}}
+      Ch25{{"Chapter 25:<br/>All-Pairs Shortest Paths"}}
         Sec25_1["25.1 Shortest paths and matrix multiplication"]
         Sec25_2["25.2 The Floyd-Warshall algorithm ($d_{ij}^{(k)}$)"]
         Sec25_3["25.3 Johnson's algorithm for sparse graphs"]
-      Ch26{{"26. Maximum Flow (Ford-Fulkerson, Push-Relabel)"}}
+      Ch26{{"Chapter 26:<br/>Maximum Flow (Ford-Fulkerson, Push-Relabel)"}}
         Sec26_1["26.1 Flow networks ($f(u,v), c(u,v)$)"]
         Sec26_2["26.2 The Ford-Fulkerson method"]
         Sec26_3["26.3 Maximum bipartite matching"]
@@ -224,25 +224,25 @@ mindmap
 
     Part_VII))"VII. Selected Topics 🌟"((
       Intro_VII["Introduction"]
-      Ch27{{"27. Multithreaded Algorithms (Work, Span, Parallelism)"}}
+      Ch27{{"Chapter 27:<br/>Multithreaded Algorithms (Work, Span, Parallelism)"}}
         Sec27_1["27.1 The basics of dynamic multithreading"]
         Sec27_2["27.2 Multithreaded matrix multiplication"]
         Sec27_3["27.3 Multithreaded merge sort"]
-      Ch28{{"28. Matrix Operations ($A=LU, PA=LUP, A^{-1}$)"}}
+      Ch28{{"Chapter 28: Matrix Operations ($A=LU, PA=LUP, A^{-1}$)"}}
         Sec28_1["28.1 Solving systems of linear equations"]
         Sec28_2["28.2 Inverting matrices"]
         Sec28_3["28.3 Symmetric positive-deﬁnite matrices and least-squares approximation"]
-      Ch29{{"29. Linear Programming (Simplex)"}}
+      Ch29{{"Chapter 29:<br/>Linear Programming (Simplex)"}}
         Sec29_1["29.1 Standard and slack forms"]
         Sec29_2["29.2 Formulating problems as linear programs"]
         Sec29_3["29.3 The simplex algorithm"]
         Sec29_4["29.4 Duality"]
         Sec29_5["29.5 The initial basic feasible solution"]
-      Ch30{{"30. Polynomials and the FFT ($Y_k = \sum_{j=0}^{N-1} x_j e^{-i2\pi jk/N}$)"}}
+      Ch30{{"Chapter 30:<br/>Polynomials and the FFT ($Y_k = \sum_{j=0}^{N-1} x_j e^{-i2\pi jk/N}$)"}}
         Sec30_1["30.1 Representing polynomials"]
         Sec30_2["30.2 The DFT and FFT"]
         Sec30_3["30.3 Efﬁcient FFT implementations"]
-      Ch31{{"31. Number-Theoretic Algorithms ($\gcd(a,b)$, RSA, Primality)"}}
+      Ch31{{"Chapter 31:<br/>Number-Theoretic Algorithms ($\gcd(a,b)$, RSA, Primality)"}}
         Sec31_1["31.1 Elementary number-theoretic notions"]
         Sec31_2["31.2 Greatest common divisor"]
         Sec31_3["31.3 Modular arithmetic"]
@@ -252,23 +252,23 @@ mindmap
         Sec31_7["31.7 The RSA public-key cryptosystem"]
         Sec31_8["? 31.8 Primality testing"]
         Sec31_9["? 31.9 Integer factorization"]
-      Ch32{{"32. String Matching (KMP, Rabin-Karp)"}}
+      Ch32{{"Chapter 32:<br/>String Matching (KMP, Rabin-Karp)"}}
         Sec32_1["32.1 The naive string-matching algorithm"]
         Sec32_2["32.2 The Rabin-Karp algorithm"]
         Sec32_3["32.3 String matching with ﬁnite automata"]
         Sec32_4["? 32.4 The Knuth-Morris-Pratt algorithm"]
-      Ch33{{"33. Computational Geometry"}}
+      Ch33{{"Chapter 33:<br/>Computational Geometry"}}
         Sec33_1["33.1 Line-segment properties"]
         Sec33_2["33.2 Determining whether any pair of segments intersects"]
         Sec33_3["33.3 Finding the convex hull"]
         Sec33_4["33.4 Finding the closest pair of points"]
-      Ch34{{"34. NP-Completeness (P, NP, NPC, Reductions)"}}
+      Ch34{{"Chapter 34:<br/>NP-Completeness (P, NP, NPC, Reductions)"}}
         Sec34_1["34.1 Polynomial time"]
         Sec34_2["34.2 Polynomial-time veriﬁcation"]
         Sec34_3["34.3 NP-completeness and reducibility"]
         Sec34_4["34.4 NP-completeness proofs"]
         Sec34_5["34.5 NP-complete problems"]
-      Ch35{{"35. Approximation Algorithms ($C/C^* \le \rho(n)$)"}}
+      Ch35{{"Chapter 35:<br/>Approximation Algorithms ($C/C^* \le \rho(n)$)"}}
         Sec35_1["35.1 The vertex-cover problem"]
         Sec35_2["35.2 The traveling-salesman problem"]
         Sec35_3["35.3 The set-covering problem"]
