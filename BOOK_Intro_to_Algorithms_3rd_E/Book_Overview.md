@@ -61,7 +61,7 @@ config:
     'fontFamily': 'Andale Mono, monospace',
     'mindmap': {
 	    'nodeAlign': 'center',
-	    'padding': 20
+	    'padding': 5
     },
     'themeVariables': {
       'primaryColor': '#FC82',
@@ -70,110 +70,110 @@ config:
       'secondaryColor': '#EBF3',
       'secondaryTextColor': '#6C3483',
       'secondaryBorderColor': '#A569BD',
-      'fontSize': '20px'
+      'fontSize': '15px'
     }
   }
 }%%
 mindmap
-  root(("Introduction to Algorithms, Third Edition 📚<br/>(Cormen, Leiserson, Rivest, Stein)"))
+  root)"Introduction to Algorithms, Third Edition 📚<br/>(Cormen, Leiserson, Rivest, Stein)"(
     Authors["Authors: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein"]
 
-    Part_I["I. Foundations ✨"]
-      Ch1["1. The Role of Algorithms in Computing"]
-        Sec1_1["1.1 Algorithms"]
-        Sec1_2["1.2 Algorithms as a technology"]
-      Ch2["2. Getting Started 🚀"]
+    Part_I))"I. Foundations ✨"((
+      Ch1{{"Chapter 1:<br/>The Role of Algorithms in Computing"}}
+        Sec1_1("Section 1.1 Algorithms")
+        Sec1_2("Section 1.2 Algorithms as a technology")
+      Ch2{{"Chapter 2:<br/> Getting Started 🚀"}}
         Sec2_1["2.1 Insertion sort"]
         Sec2_2["2.2 Analyzing algorithms"]
         Sec2_3["2.3 Designing algorithms"]
-      Ch3["3. Growth of Functions 📈<br/>($\Theta, O, \Omega$)"]
+      Ch3{{"Chapter 3:<br/>Growth of Functions 📈<br/>($\Theta, O, \Omega$)"}}
         Sec3_1["3.1 Asymptotic notation ($\Theta(n^2)$, $O(n \log n)$)"]
         Sec3_2["3.2 Standard notations and common functions"]
-      Ch4["4. Divide-and-Conquer ➗👑<br/>($T(n) = aT(n/b) + f(n)$)"]
+      Ch4{{"Chapter 4:<br/>Divide-and-Conquer ➗👑<br/>($T(n) = aT(n/b) + f(n)$)"}}
         Sec4_1["4.1 The maximum-subarray problem"]
         Sec4_2["4.2 Strassen's algorithm for matrix multiplication"]
         Sec4_3["4.3 The substitution method for solving recurrences"]
         Sec4_4["4.4 The recursion-tree method for solving recurrences"]
         Sec4_5["4.5 The master method for solving recurrences"]
         Sec4_6["? 4.6 Proof of the master theorem"]
-      Ch5["5. Probabilistic Analysis and Randomized Algorithms 🎲<br/>($E[X]$)"]
+      Ch5{{"Chapter 5:<br/> Probabilistic Analysis and Randomized Algorithms 🎲<br/>($E[X]$)"}}
         Sec5_1["5.1 The hiring problem"]
         Sec5_2["5.2 Indicator random variables ($I\{A\}$)"]
         Sec5_3["5.3 Randomized algorithms"]
         Sec5_4["? 5.4 Probabilistic analysis and further uses of indicator random variables"]
 
-    Part_II["II. Sorting and Order Statistics 📊"]
+    Part_II))"II. Sorting and Order Statistics 📊"((
       Intro_II["Introduction"]
-      Ch6["6. Heapsort"]
+      Ch6{{"6. Heapsort"}}
         Sec6_1["6.1 Heaps"]
         Sec6_2["6.2 Maintaining the heap property"]
         Sec6_3["6.3 Building a heap"]
         Sec6_4["6.4 The heapsort algorithm"]
         Sec6_5["6.5 Priority queues"]
-      Ch7["7. Quicksort"]
+      Ch7{{"7. Quicksort"}}
         Sec7_1["7.1 Description of quicksort"]
         Sec7_2["7.2 Performance of quicksort"]
         Sec7_3["7.3 A randomized version of quicksort"]
         Sec7_4["7.4 Analysis of quicksort"]
-      Ch8["8. Sorting in Linear Time ($O(n)$)"]
+      Ch8{{"8. Sorting in Linear Time ($O(n)$)"}}
         Sec8_1["8.1 Lower bounds for sorting ($\Omega(n \log n)$ for comparisons)"]
         Sec8_2["8.2 Counting sort"]
         Sec8_3["8.3 Radix sort"]
         Sec8_4["8.4 Bucket sort"]
-      Ch9["9. Medians and Order Statistics"]
+      Ch9{{"9. Medians and Order Statistics"}}
         Sec9_1["9.1 Minimum and maximum"]
         Sec9_2["9.2 Selection in expected linear time"]
         Sec9_3["9.3 Selection in worst-case linear time"]
 
-    Part_III["III. Data Structures 🗂️"]
+    Part_III))"III. Data Structures 🗂️"((
       Intro_III["Introduction"]
-      Ch10["10. Elementary Data Structures (Stacks, Queues, Lists, Trees)"]
+      Ch10{{"10. Elementary Data Structures (Stacks, Queues, Lists, Trees)"}}
         Sec10_1["10.1 Stacks and queues"]
         Sec10_2["10.2 Linked lists"]
         Sec10_3["10.3 Implementing pointers and objects"]
         Sec10_4["10.4 Representing rooted trees"]
-      Ch11["11. Hash Tables ($h(k)$)"]
+      Ch11{{"11. Hash Tables ($h(k)$)"}}
         Sec11_1["11.1 Direct-address tables"]
         Sec11_2["11.2 Hash tables"]
         Sec11_3["11.3 Hash functions"]
         Sec11_4["11.4 Open addressing"]
         Sec11_5["? 11.5 Perfect hashing"]
-      Ch12["12. Binary Search Trees"]
+      Ch12{{"12. Binary Search Trees"}}
         Sec12_1["12.1 What is a binary search tree?"]
         Sec12_2["12.2 Querying a binary search tree"]
         Sec12_3["12.3 Insertion and deletion"]
         Sec12_4["? 12.4 Randomly built binary search trees"]
-      Ch13["13. Red-Black Trees ❤️🖤"]
+      Ch13{{"13. Red-Black Trees ❤️🖤"}}
         Sec13_1["13.1 Properties of red-black trees"]
         Sec13_2["13.2 Rotations"]
         Sec13_3["13.3 Insertion"]
         Sec13_4["13.4 Deletion"]
-      Ch14["14. Augmenting Data Structures"]
+      Ch14{{"14. Augmenting Data Structures"}}
         Sec14_1["14.1 Dynamic order statistics"]
         Sec14_2["14.2 How to augment a data structure"]
         Sec14_3["14.3 Interval trees"]
 
-    Part_IV["IV. Advanced Design and Analysis Techniques 🛠️"]
+    Part_IV))"IV. Advanced Design and Analysis Techniques 🛠️"((
       Intro_IV["Introduction"]
-      Ch15["15. Dynamic Programming"]
+      Ch15{{"15. Dynamic Programming"}}
         Sec15_1["15.1 Rod cutting"]
         Sec15_2["15.2 Matrix-chain multiplication"]
         Sec15_3["15.3 Elements of dynamic programming<br/>(Opt. Substructure, Overlapping Subproblems)"]
         Sec15_4["15.4 Longest common subsequence"]
         Sec15_5["15.5 Optimal binary search trees"]
-      Ch16["16. Greedy Algorithms 💰"]
+      Ch16{{"16. Greedy Algorithms 💰"}}
         Sec16_1["16.1 An activity-selection problem"]
         Sec16_2["16.2 Elements of the greedy strategy"]
         Sec16_3["16.3 Huffman codes"]
         Sec16_4["? 16.4 Matroids and greedy methods"]
         Sec16_5["? 16.5 A task-scheduling problem as a matroid"]
-      Ch17["17. Amortized Analysis (Aggregate, Accounting, Potential)"]
+      Ch17{{"17. Amortized Analysis (Aggregate, Accounting, Potential)"}}
         Sec17_1["17.1 Aggregate analysis"]
         Sec17_2["17.2 The accounting method"]
         Sec17_3["17.3 The potential method"]
         Sec17_4["17.4 Dynamic tables"]
 
-    Part_V["V. Advanced Data Structures 🧱"]
+    Part_V))"V. Advanced Data Structures 🧱"((
       Intro_V["Introduction"]
       Ch18["18. B-Trees (Disk-based)"]
         Sec18_1["18.1 Definition of B-trees"]
@@ -194,7 +194,7 @@ mindmap
         Sec21_3["21.3 Disjoint-set forests"]
         Sec21_4["? 21.4 Analysis of union by rank with path compression"]
 
-    Part_VI["VI. Graph Algorithms 🕸️ ($G=(V,E)$)"]
+    Part_VI))"VI. Graph Algorithms 🕸️ ($G=(V,E)$)"((
       Intro_VI["Introduction"]
       Ch22["22. Elementary Graph Algorithms"]
         Sec22_1["22.1 Representations of graphs"]
@@ -222,7 +222,7 @@ mindmap
         Sec26_4["? 26.4 Push-relabel algorithms"]
         Sec26_5["? 26.5 The relabel-to-front algorithm"]
 
-    Part_VII["VII. Selected Topics 🌟"]
+    Part_VII))"VII. Selected Topics 🌟"((
       Intro_VII["Introduction"]
       Ch27["27. Multithreaded Algorithms (Work, Span, Parallelism)"]
         Sec27_1["27.1 The basics of dynamic multithreading"]
@@ -275,7 +275,7 @@ mindmap
         Sec35_4["35.4 Randomization and linear programming"]
         Sec35_5["35.5 The subset-sum problem"]
 
-    Part_VIII["VIII. Appendix: Mathematical Background 📐"]
+    Part_VIII))"VIII. Appendix: Mathematical Background 📐"((
       Intro_VIII["Introduction"]
       AppA["A. Summations ($\sum$)"]
         SecA_1["A.1 Summation formulas and properties"]
@@ -295,8 +295,8 @@ mindmap
       AppD["D. Matrices ($A^{-1}, \det(A)$)"]
         SecD_1["D.1 Matrices and matrix operations"]
         SecD_2["D.2 Basic matrix properties"]
-    Bibliography["Bibliography 📜"]
-    Index["Index 🔍"]
+    Bibliography))"Bibliography 📜"((
+    Index))"Index 🔍"((
 ```
 
 This mind map provides a high-level view of the book's structure, highlighting the different parts and the chapters contained within each. Key mathematical concepts and chapter themes are indicated with emojis and LaTeX notations for quick reference. Chapters and sections marked with '?' are those identified as more advanced in the original Table of Contents.
