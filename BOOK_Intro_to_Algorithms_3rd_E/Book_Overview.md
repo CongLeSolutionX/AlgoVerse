@@ -83,47 +83,47 @@ mindmap
         Sec1_1("Section 1.1 Algorithms")
         Sec1_2("Section 1.2 Algorithms as a technology")
       Ch2{{"Chapter 2:<br/> Getting Started 🚀"}}
-        Sec2_1["2.1 Insertion sort"]
-        Sec2_2["2.2 Analyzing algorithms"]
-        Sec2_3["2.3 Designing algorithms"]
+        Sec2_1["Section 2.1 Insertion sort"]
+        Sec2_2["Section 2.2 Analyzing algorithms"]
+        Sec2_3["Section 2.3 Designing algorithms"]
       Ch3{{"Chapter 3:<br/>Growth of Functions 📈<br/>($\Theta, O, \Omega$)"}}
-        Sec3_1["3.1 Asymptotic notation ($\Theta(n^2)$, $O(n \log n)$)"]
-        Sec3_2["3.2 Standard notations and common functions"]
+        Sec3_1["Section 3.1 Asymptotic notation ($\Theta(n^2)$, $O(n \log n)$)"]
+        Sec3_2["Section 3.2 Standard notations and common functions"]
       Ch4{{"Chapter 4:<br/>Divide-and-Conquer ➗👑<br/>($T(n) = aT(n/b) + f(n)$)"}}
-        Sec4_1["4.1 The maximum-subarray problem"]
-        Sec4_2["4.2 Strassen's algorithm for matrix multiplication"]
-        Sec4_3["4.3 The substitution method for solving recurrences"]
-        Sec4_4["4.4 The recursion-tree method for solving recurrences"]
-        Sec4_5["4.5 The master method for solving recurrences"]
-        Sec4_6["? 4.6 Proof of the master theorem"]
+        Sec4_1["Section 4.1 The maximum-subarray problem"]
+        Sec4_2["Section 4.2 Strassen's algorithm for matrix multiplication"]
+        Sec4_3["Section 4.3 The substitution method for solving recurrences"]
+        Sec4_4["Section 4.4 The recursion-tree method for solving recurrences"]
+        Sec4_5["Section 4.5 The master method for solving recurrences"]
+        Sec4_6["Section 4.6 Proof of the master theorem"]
       Ch5{{"Chapter 5:<br/> Probabilistic Analysis and Randomized Algorithms 🎲<br/>($E[X]$)"}}
-        Sec5_1["5.1 The hiring problem"]
-        Sec5_2["5.2 Indicator random variables ($I\{A\}$)"]
-        Sec5_3["5.3 Randomized algorithms"]
-        Sec5_4["? 5.4 Probabilistic analysis and further uses of indicator random variables"]
+        Sec5_1["Section 5.1 The hiring problem"]
+        Sec5_2["Section 5.2 Indicator random variables ($I\{A\}$)"]
+        Sec5_3["Section 5.3 Randomized algorithms"]
+        Sec5_4["Section 5.4 Probabilistic analysis and further uses of indicator random variables"]
 
     Part_II))"II. Sorting and Order Statistics 📊"((
       Intro_II["Introduction"]
       Ch6{{"Chapter 6:<br/>Heapsort"}}
-        Sec6_1["6.1 Heaps"]
-        Sec6_2["6.2 Maintaining the heap property"]
-        Sec6_3["6.3 Building a heap"]
-        Sec6_4["6.4 The heapsort algorithm"]
-        Sec6_5["6.5 Priority queues"]
+        Sec6_1["Section 6.1 Heaps"]
+        Sec6_2["Section 6.2 Maintaining the heap property"]
+        Sec6_3["Section 6.3 Building a heap"]
+        Sec6_4["Section 6.4 The heapsort algorithm"]
+        Sec6_5["Section 6.5 Priority queues"]
       Ch7{{"Chapter 7:<br/>Quicksort"}}
-        Sec7_1["7.1 Description of quicksort"]
-        Sec7_2["7.2 Performance of quicksort"]
-        Sec7_3["7.3 A randomized version of quicksort"]
-        Sec7_4["7.4 Analysis of quicksort"]
+        Sec7_1["Section 7.1 Description of quicksort"]
+        Sec7_2["Section 7.2 Performance of quicksort"]
+        Sec7_3["Section 7.3 A randomized version of quicksort"]
+        Sec7_4["Section 7.4 Analysis of quicksort"]
       Ch8{{"Chapter 8:<br/>Sorting in Linear Time<br/> ($O(n)$)"}}
-        Sec8_1["8.1 Lower bounds for sorting ($\Omega(n \log n)$ for comparisons)"]
-        Sec8_2["8.2 Counting sort"]
-        Sec8_3["8.3 Radix sort"]
-        Sec8_4["8.4 Bucket sort"]
+        Sec8_1["Section 8.1 Lower bounds for sorting ($\Omega(n \log n)$ for comparisons)"]
+        Sec8_2["Section 8.2 Counting sort"]
+        Sec8_3["Section 8.3 Radix sort"]
+        Sec8_4["Section 8.4 Bucket sort"]
       Ch9{{"Chapter 9:<br/>Medians and Order Statistics"}}
-        Sec9_1["9.1 Minimum and maximum"]
-        Sec9_2["9.2 Selection in expected linear time"]
-        Sec9_3["9.3 Selection in worst-case linear time"]
+        Sec9_1["Section 9.1 Minimum and maximum"]
+        Sec9_2["Section 9.2 Selection in expected linear time"]
+        Sec9_3["Section 9.3 Selection in worst-case linear time"]
 
     Part_III))"III. Data Structures 🗂️"((
       Intro_III["Introduction"]
