@@ -404,19 +404,6 @@ Several chapter sections imply specific mathematical notations or concepts centr
 
 The selection of which chapters/sections are marked with '?' is directly from the provided Table of Contents.
 
----
-
-## References
-
-The primary reference for this document is the book itself:
-*   Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). *Introduction to Algorithms* (3rd ed.). MIT Press.
-
-Additional references for specific concepts or algorithms mentioned within CLRS can be found in its extensive bibliography. For example, the text mentions:
-*   Knuth, D. E. (1997). *The Art of Computer Programming, Volume 1: Fundamental Algorithms* (3rd ed.). Addison-Wesley. (For general algorithm study and history)
-*   Aho, A. V., Hopcroft, J. E., & Ullman, J. D. (1974). *The Design and Analysis of Computer Algorithms*. Addison-Wesley. (For asymptotic analysis and recurrences)
-*   And numerous other specific papers and books for individual topics.
-
-
 ----
 
 <!-- 
@@ -466,8 +453,6 @@ flowchart LR
   
   animatingEdge@{ animate: true }
 
-
-
 ```
 
 ---
@@ -477,3 +462,17 @@ flowchart LR
 >- **Creative Commons Attribution-ShareAlike 4.0 International**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) [![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/) - Legal details in [LICENSE-CC-BY-SA-4.0](THE_PAST/LICENSE-CC-BY-SA-4.0) and at [Creative Commons official site](https://creativecommons.org/licenses/by-sa/4.0/).
 >
 ---
+
+
+## References
+
+The primary reference for this document is the book itself:
+*   Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). *Introduction to Algorithms* (3rd ed.). MIT Press.
+
+Additional references for specific concepts or algorithms mentioned within CLRS can be found in its extensive bibliography. For example, the text mentions:
+*   Knuth, D. E. (1997). *The Art of Computer Programming, Volume 1: Fundamental Algorithms* (3rd ed.). Addison-Wesley. (For general algorithm study and history)
+*   Aho, A. V., Hopcroft, J. E., & Ullman, J. D. (1974). *The Design and Analysis of Computer Algorithms*. Addison-Wesley. (For asymptotic analysis and recurrences)
+*   And numerous other specific papers and books for individual topics.
+
+---
+
