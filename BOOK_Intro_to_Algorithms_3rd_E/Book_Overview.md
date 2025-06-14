@@ -21,8 +21,6 @@ other source: https://enos.itcollege.ee/~japoia/algorithms/GT/Introduction_to_al
 ----
 
 
-
-
 # Introduction to Algorithms - Third Edition
 > by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
 
@@ -36,10 +34,6 @@ other source: https://enos.itcollege.ee/~japoia/algorithms/GT/Introduction_to_al
 > 2. **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):** Applies to all non-code content, including text, explanations, diagrams, and illustrations.
 ---
 
-
-
-
-----
 
 ## Visualizing "Introduction to Algorithms, Third Edition" 📖
 
