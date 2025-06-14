@@ -24,7 +24,7 @@ other source: https://enos.itcollege.ee/~japoia/algorithms/GT/Introduction_to_al
 
 
 # Chapter 1  - The Role of Algorithms in Computing 🌍
-> **Disclaimer:**
+> <ins>📢 **Disclaimer** 🚨</ins>
 >
 > This document contains my personal notes on the topic,
 > compiled from publicly available documentation and various cited sources.
