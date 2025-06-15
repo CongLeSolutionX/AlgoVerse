@@ -56,6 +56,16 @@ The goal is to serve as a central hub for understanding, teaching, and researchi
 
 ## Algorithms Included
 
+
+
+<div align="center">
+	<img alt="Algorithms Included" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGFhemhscTdjZTIxYWttczZsMjdqOTJrZ3N1azdrMHJpYWxpNGxidyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xAOn2rfInNueoU/giphy.gif"/>
+	<br/>
+	<em>gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+</div>
+
+
+
 ### Sorting Algorithms
 
 - [Selection Sort](./Sorting-Algorithms/Selection-Sort-Algorithm-Framework/Selection-Sort-Algorithm-Framework.md)
