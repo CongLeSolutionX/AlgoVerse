@@ -178,6 +178,15 @@ git clone https://github.com/CongLeSolutionX/AlgoVerse
 
 </div>
 
+
+
+<div align="center">
+	<img alt="Project Current Activities Bottom" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHl0aDJxZ3E3dXU2YzdhMjlvYTdreG55bW5tODQ3YjhkM3B6dDA3aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEduNyqHoMFP9oVXy/giphy.gif"/>
+	<br/>
+	<em>gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+</div>
+
+
 ---
 
 
