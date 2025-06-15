@@ -149,6 +149,14 @@ git clone https://github.com/CongLeSolutionX/AlgoVerse
 
 ## 🚀 Project Current Activities
 
+
+<div align="center">
+	<img alt="Project Current Activities Top" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ244dGVjeTE2M3Y1bGNseGg0aWc3NjdrNmRjNnlyNTdpbTNwazcydyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l44QzsOLXxcrigdgI/giphy.gif"/>
+	<br/>
+	<em>gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+</div>
+
+
 <div align="left"><a name="project-current-activities"></a>
 
 <details open>
