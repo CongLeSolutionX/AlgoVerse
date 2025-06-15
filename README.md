@@ -138,6 +138,13 @@ AlgoVerse/
 
 ## Getting Started
 
+<div align="center">
+	<img alt="Repository Structure" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWlyaGx6bnJxbHdnMGx6bXF6MzZqdWE5dDQ3dm93OWZzdnJzdXlsayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GRfgULqRzOJCo/giphy.gif"/>
+	<br/>
+	<em>gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+</div>
+
+
 ### Prerequisites
 
 To make the most of this repository, you may need:
