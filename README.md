@@ -22,7 +22,11 @@ Copyright (c) 2025 Cong Le. All Rights Reserved.
 ----
 
 
-Welcome to **AlgoVerse**! This repository is a comprehensive collection of structured algorithm frameworks designed for educational and research purposes. Whether you're a student, educator, researcher, or enthusiast, AlgoVerse provides in-depth analyses, mathematical breakdowns, and implementation guidance for a variety of fundamental and advanced algorithms.
+Welcome to **AlgoVerse**!
+
+This repository is a comprehensive collection of structured algorithm frameworks designed for educational and research purposes.
+
+Whether you're a student, educator, researcher, or enthusiast, AlgoVerse provides in-depth analyses, mathematical breakdowns, and implementation guidance for a variety of fundamental and advanced algorithms.
 
 ## Table of Contents
 
