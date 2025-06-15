@@ -86,6 +86,14 @@ The goal is to serve as a central hub for understanding, teaching, and researchi
 
 ## Repository Structure
 
+
+<div align="center">
+	<img alt="Repository Structure" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3J6dHllYmQyZnZnaXBhdnRmMG81NWx0YXdkaWFndzlua3NrMTBwbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xThuWl1CsJUCg2qEDu/giphy.gif"/>
+	<br/>
+	<em>gif image is provided by <a href="https://giphy.com">Giphy</a></em>
+</div>
+
+
 The repository is organized into folders, each corresponding to a specific algorithm. Inside each folder, you'll find:
 
 - **README.md**: A detailed framework analyzing the algorithm step by step, including conceptual explanations, mathematical analysis, and pseudocode.  This documentation is licensed under [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
