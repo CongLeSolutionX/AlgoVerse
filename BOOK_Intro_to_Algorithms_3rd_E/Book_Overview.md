@@ -335,7 +335,7 @@ config:
 }%%
 flowchart LR
     subgraph Preface_CLRS["Preface Insights"]
-    style Preface_CLRS fill:#f9f3,stroke:#333,stroke-width:2px, color: #000
+    style Preface_CLRS fill:#f9f3,stroke:#333,stroke-width:2px, color: #FFF
     direction LR
 
         Audience["🎯 Target Audiences"]
