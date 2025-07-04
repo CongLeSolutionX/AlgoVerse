@@ -296,7 +296,7 @@ flowchart LR
      
   Closing_quote ~~~ My_Meme
     
-  Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about my profile</a>"}}
+  Link_to_my_profile{{"<a href='https://github.com/CongLeSolutionX' target='_blank'>Click here if you care about the profile of a tech guy looking for a job 🙏🏻</a>"}}
 
   Closing_quote ~~~ My_Meme
   My_Meme animatingEdge@--> Link_to_my_profile
