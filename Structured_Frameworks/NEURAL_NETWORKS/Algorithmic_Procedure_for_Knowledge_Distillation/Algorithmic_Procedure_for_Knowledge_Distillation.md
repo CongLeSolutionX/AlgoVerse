@@ -171,16 +171,18 @@ $$
 The paper shows the gradient of the cross-entropy loss w.r.t. the student's logits $z_i$ is:
 
 $$
-\frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} = \frac{1}{T} \left( \sigma(z_i, T) - \sigma(z_T_i, T) \right)
+\frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} = \frac{1}{T} \left( \sigma(z_i, T) - \sigma(z_{Ti}, T) \right)
 $$
 
 In the high-temperature limit ($T \to \infty$), this approximates to:
 
 $$
-\frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} \approx \frac{1}{NT^2} (z_i - z_T_i)
+\frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} \approx \frac{1}{NT^2} (z_i - z_{T_i})
 $$
 
-This gradient corresponds to minimizing $\frac{1}{2} (z_i - z_T_i)^2$, proving that logit matching is a special case of distillation.
+
+This gradient corresponds to minimizing $\frac{1}{2} (z_i - z_{T_i})^2$, proving that logit matching is a special case of distillation.
+
 
 ----
 
