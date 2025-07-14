@@ -180,7 +180,9 @@ $$
 \frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} \approx \frac{1}{NT^2} (z_i - z_T_i)
 $$
 
-This gradient corresponds to minimizing $\frac{1}{2} (z_i - z_T_i)^2$, proving that logit matching is a special case of distillation.
+
+This gradient corresponds to minimizing $\frac{1}{2} (z_i - z_{T_i})^2$, proving that logit matching is a special case of distillation.
+
 
 ----
 
