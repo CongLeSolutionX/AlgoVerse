@@ -177,7 +177,7 @@ $$
 In the high-temperature limit ($T \to \infty$), this approximates to:
 
 $$
-\frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} \approx \frac{1}{NT^2} (z_i - z_T_i)
+\frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} \approx \frac{1}{NT^2} (z_i - z_{T_i})
 $$
 
 
