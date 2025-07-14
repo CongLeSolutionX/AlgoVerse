@@ -174,6 +174,10 @@ $$
 \frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} = \frac{1}{T} \left( \sigma(z_i, T) - \sigma(z_{Ti}, T) \right)
 $$
 
+KaTex alternative version:
+
+$$\frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} = \frac{1}{T} \left( \sigma(z_i, T) - \sigma(z_{Ti}, T) \right)$$
+
 In the high-temperature limit ($T \to \infty$), this approximates to:
 
 $$
@@ -183,6 +187,9 @@ $$
 
 This gradient corresponds to minimizing $\frac{1}{2} (z_i - z_{T_i})^2$, proving that logit matching is a special case of distillation.
 
+> [!NOTE]
+> GitHub's math renderer may not display the equations above as intended.<br/>
+> The math expressions in both LaTeX/KaTeX syntax are valid and work as expected in other editors externally.
 
 ----
 
