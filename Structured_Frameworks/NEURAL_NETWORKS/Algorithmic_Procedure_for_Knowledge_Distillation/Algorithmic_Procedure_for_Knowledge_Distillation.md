@@ -171,7 +171,7 @@ $$
 The paper shows the gradient of the cross-entropy loss w.r.t. the student's logits $z_i$ is:
 
 $$
-\frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} = \frac{1}{T} \left( \sigma(z_i, T) - \sigma(z_T_i, T) \right)
+\frac{\partial \mathcal{L}_{\text{soft}}}{\partial z_i} = \frac{1}{T} \left( \sigma(z_i, T) - \sigma(z_{Ti}, T) \right)
 $$
 
 In the high-temperature limit ($T \to \infty$), this approximates to:
